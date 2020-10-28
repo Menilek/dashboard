@@ -1,10 +1,12 @@
 from flask import Flask, render_template
+from api import api
 
 app = Flask(__name__)
+app.register_blueprint(api, url_prefix="/ane")
 
 @app.route('/', methods=['GET'])
 def home():
-    header = 'Menilek.Tech/ane'
+    header = 'HOME PAGE'
     title = 'HELLO WORLD'
     return render_template('index.html', header=header, title=title)
 
