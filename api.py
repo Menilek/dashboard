@@ -2,7 +2,7 @@ from flask import Blueprint, request, render_template
 
 api = Blueprint("ane", __name__)
 
-@api.route('/', methods=['GET'])
+@api.route('/ane', methods=['GET'])
 def index():
     header = 'Menilek.Tech/ane'
     title = 'WELCOME TO THE PARTY'
