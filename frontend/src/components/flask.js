@@ -33,9 +33,12 @@ class FlaskEndpoint extends Component {
     }
     render() {
         return (
-            <div>
+            <div style={{ textAlign: "center" }}>
                 <p>YOU ARE VISITING US FROM</p>
-                <p style={{textAlign: "center"}}>{this.state.city}</p>
+                <p>{this.state.city}</p>
+                <p>IP Address: {this.state.ip}</p>
+                <p>Internet Service Provider: {this.state.isp}</p>
+                <p>Timezone: {this.state.tz}</p>
             </div>
         )
     }
