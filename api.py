@@ -16,3 +16,11 @@ def index():
     ip = ip_payload['query']
     tz = ip_payload['timezone']
     return render_template('index.html', header=header, title=title, city=city, isp=isp, tz=tz, ip=ip)
+
+@api.route('/ane/city', methods=['GET'])
+def city():
+    ip_endpoint = 'http://ip-api.com/json/'
+    ip_data = requests.get(ip_endpoint)
+    ip_payload = ip_data.json()
+    city = ip_payload['city']
+    return city
