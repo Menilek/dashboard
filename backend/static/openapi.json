@@ -1,0 +1,36 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Visitor API",
+    "description": "An API to return user meta data"
+  },
+  "paths": {
+    "/api/visitor": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "description": "Returns an object containing the user's meta data",
+        "responses": {
+          "200": {
+            "description": "an object containing the user's City, Internet Service Prodiver, IP Address and Timezone",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "city": "London",
+                    "ip": "107.6.40.238",
+                    "isp": "Sky Broadband",
+                    "tz": "London/Europe"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
