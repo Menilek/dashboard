@@ -8,10 +8,11 @@ api = Blueprint("ane", __name__)
 def index():
     header = 'Menilek.Tech/ane'
     title = 'WELCOME TO THE PARTY'
-    return render_template('index.html', header=header, title=title)
-
-@api.route('/ane/ip', methods=['GET'])
-def ip():
     ip_endpoint = 'http://ip-api.com/json/'
     ip_data = requests.get(ip_endpoint)
-    return ip_data.json()
+    ip_payload = ip_data.json()
+    city = ip_payload['city']
+    isp = ip_payload['isp']
+    ip = ip_payload['query']
+    tz = ip_payload['timezone']
+    return render_template('index.html', header=header, title=title, city=city, isp=isp, tz=tz, ip=ip)
