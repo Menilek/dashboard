@@ -13,8 +13,8 @@ class FlaskEndpoint extends Component {
         }
     }
 
-    getCity = () => {
-        axios.get('http://0.0.0.0:5000/ane/api/ip').then(res => {
+    getIPData = () => {
+        axios.get('http://0.0.0.0:5000/ane/api/visitor').then(res => {
             console.log(res.data.city)
             console.log(res.data.isp)
             console.log(res.data.ip)
@@ -29,7 +29,7 @@ class FlaskEndpoint extends Component {
     }
 
     componentDidMount() {
-        this.getCity();
+        this.getIPData();
     }
     render() {
         return (
