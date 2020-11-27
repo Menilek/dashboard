@@ -31,7 +31,39 @@ def visitor():
     ip_obj = {"city": city, "isp": isp, "ip": ip, "tz": tz}
     return ip_obj
 
-# https://dev.to/sanjan/how-to-add-swagger-ui-to-a-plain-flask-api-project-with-an-openapi-specification-file-1jl8
+
+@api.route('/api/city', methods=['GET'])
+def city():
+    endpoint = 'http://ip-api.com/json/?fields=city'
+    city_data = requests.get(endpoint)
+    city = city_data.json()
+    return city
+
+
+@api.route('/api/ip', methods=['GET'])
+def ip_address():
+    endpoint = 'http://ip-api.com/json/?fields=query'
+    ip_data = requests.get(endpoint)
+    ip_address = ip_data.json()
+    return ip_address
+
+
+@api.route('/api/isp', methods=['GET'])
+def isp():
+    endpoint = 'http://ip-api.com/json/?fields=isp'
+    isp_data = requests.get(endpoint)
+    isp = isp_data.json()
+    return isp
+
+
+@api.route('/api/timezone', methods=['GET'])
+def timezone():
+    endpoint = 'http://ip-api.com/json/?fields=timezone'
+    timezone_data = requests.get(endpoint)
+    timezone = timezone_data.json()
+    return timezone
+
+
 @api.route('/api/docs', methods=['GET'])
 def get_docs():
     print('Retrieving docs')
