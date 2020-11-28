@@ -1,5 +1,6 @@
 import './App.css';
 import { Provider } from 'react-redux'
+import { hot } from 'react-hot-loader/root'
 import styled from 'styled-components'
 import theme from 'styled-theming'
 import store from './store'
@@ -42,4 +43,4 @@ function App() {
   );
 }
 
-export default App;
+export default hot(App);
