@@ -21,9 +21,101 @@
                   "type": "object",
                   "example": {
                     "city": "London",
-                    "ip": "107.6.40.238",
                     "isp": "Sky Broadband",
+                    "ip": "107.6.40.238",
                     "tz": "London/Europe"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/city": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "description": "Returns an object containing the user's city",
+        "responses": {
+          "200": {
+            "description": "an object containing the user's City",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "city": "London"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ip": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "description": "Returns an object containing the user's IP Address",
+        "responses": {
+          "200": {
+            "description": "an object containing the user's IP Address",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "ip": "107.6.40.238"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/isp": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "description": "Returns an object containing the user's Internet Service Provider",
+        "responses": {
+          "200": {
+            "description": "an object containing the user's Internet Service Provider",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "isp": "Sky Broadband"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timezone": {
+      "get": {
+        "tags": [
+          "Visitor"
+        ],
+        "description": "Returns an object containing the user's timezone",
+        "responses": {
+          "200": {
+            "description": "an object containing the user's timezone",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "timezone": "London/Europ"
                   }
                 }
               }
