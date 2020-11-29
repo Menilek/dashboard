@@ -4,7 +4,7 @@ from api import api
 
 app = Flask(__name__)
 CORS(app, support_credentials=True)
-app.register_blueprint(api, url_prefix="/ane")
+app.register_blueprint(api)
 
 
 @app.route('/', methods=['GET'])
