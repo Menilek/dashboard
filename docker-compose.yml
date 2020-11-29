@@ -12,5 +12,7 @@ services:
     build: "./frontend"
     ports:
       - "80:80"
+    depends_on:
+      - backend
 #  docker-compose up --build -d
 #  docker-compose down -v --rmi local
