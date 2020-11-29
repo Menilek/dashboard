@@ -6,8 +6,6 @@ services:
     ports:
       - "5000:5000"
     tty: true
-    links:
-      - frontend
   frontend:
     build: "./frontend"
     ports:
