@@ -1,4 +1,4 @@
-FROM node:15-alpine
+FROM node:15-alpine as build-stage
 
 RUN mkdir -p /usr/src/frontend
 WORKDIR /usr/src/frontend
@@ -9,9 +9,17 @@ RUN npm install
 
 COPY . /usr/src/frontend
 
-EXPOSE 3000
+# EXPOSE 3000
 
-CMD ["npm", "start"]
+RUN npm run build
+
+# CMD ["npm", "start"]
+
+FROM nginx:1.19-alpine
+
+COPY --from=build-stage /usr/src/frontend/build/ /usr/share/nginx/html
+
+COPY --from=build-stage /usr/src/frontend/nginx.conf /etc/nginx/conf.d/default.conf
 
 # docker build --tag frontend . 
 # docker run --publish 3050:3000 --detach --name ff frontend
