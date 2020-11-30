@@ -14,7 +14,8 @@ class FlaskEndpoint extends Component {
     }
 
     getIPData = () => {
-        axios.get('http://0.0.0.0:5000/api/visitor').then(res => {
+        let endpoint = process.env.REACT_APP_BACKEND_URL;
+        axios.get('http://' + endpoint + ':5000/api/visitor').then(res => {
             console.log(res.data.city)
             console.log(res.data.isp)
             console.log(res.data.ip)
