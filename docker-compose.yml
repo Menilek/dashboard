@@ -2,15 +2,34 @@ version: "3.8"
 
 services:
   backend:
-    build: "./backend"
+    build: 
+      context: "./backend"
+      dockerfile: Dockerfile
+    hostname: backend
     ports:
       - "5000:5000"
+    volumes: 
+      - ./backend:/usr/src/backend
     tty: true
+    networks:
+      - ipApp
   frontend:
-    build: "./frontend"
+    build: 
+      context: "./frontend"
+      dockerfile: Dockerfile
+    environment:
+      BACKEND_BUILD_TIME_URL: backend
     ports:
       - "80:80"
+    volumes:
+      - ./frontend:/usr/src/frontend
     depends_on:
       - backend
+    networks:
+      - ipApp
+networks:
+  ipApp:
+    driver: bridge
+
 #  docker-compose up --build -d
 #  docker-compose down -v --rmi local
