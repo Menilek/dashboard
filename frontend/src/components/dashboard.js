@@ -29,8 +29,7 @@ class IpDashboard extends Component {
   render() {
     return (
       <div style={{ textAlign: "center" }}>
-        <p>YOU ARE VISITING US FROM</p>
-        <p>{this.state.city}</p>
+        <p>IP Location: {this.state.city}</p>
         <p>IP Address: {this.state.ip}</p>
         <p>Internet Service Provider: {this.state.isp}</p>
         <p>Timezone: {this.state.tz}</p>
