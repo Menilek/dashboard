@@ -32,3 +32,4 @@ CMD ["nginx", "-g", "daemon off;"]
 # docker run --publish 3050:3000 --detach --name ff frontend
 # docker stop ff
 # docker rm ff
+# docker ps

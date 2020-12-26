@@ -6,7 +6,7 @@ import theme from 'styled-theming'
 import store from './store'
 import DarkThemeProvider from './DarkThemeProvider'
 import DarkThemeToggle from './DarkThemeToggle'
-import FlaskEndpoint from './components/flask.js'
+import IpDashboard from './components/dashboard.js'
 
 export const backgroundColour = theme("theme", {
   light: "#fff",
@@ -35,7 +35,7 @@ function App() {
     <Provider store={store}>
       <DarkThemeProvider>
         <Container>
-          <FlaskEndpoint />
+          <IpDashboard />
           <DarkThemeToggle />
         </Container>
       </DarkThemeProvider>

@@ -18,3 +18,4 @@ CMD ["python", "./app.py"]
 # docker run --publish 5050:5000 --detach --name bb backend
 # docker stop bb
 # docker rm bb
+# docker ps
