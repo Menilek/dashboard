@@ -8,15 +8,15 @@ ENV REACT_APP_BACKEND_URL=$BACKEND_BUILD_TIME_URL
 
 COPY package.json /usr/src/frontend/
 COPY package-lock.json /usr/src/frontend/
-RUN npm install
+RUN yarn install
 
 COPY . /usr/src/frontend
 
 # EXPOSE 3000
 
-RUN npm run build
+RUN yarn run build
 
-# CMD ["npm", "start"]
+# CMD ["yarn", "start"]
 
 FROM nginx:1.19-alpine
 

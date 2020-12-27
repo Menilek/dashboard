@@ -28,7 +28,7 @@ services:
       - backend
     networks:
       - ipApp
-      
+
 networks:
   ipApp:
     driver: bridge
