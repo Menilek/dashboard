@@ -1,5 +1,9 @@
-A full stack app allowing users to view their own request meta data.
+An app allowing users to view their own request meta data.
+
+![dashboard](/dashboard.png)
+
+View the API documentation over at: http://menilek.tech:5000/api/docs
 
 This app is powered by the good people over at http://ip-api.com
 
-Documentation was generated using Swagger and neatly implemented following a tutorial that can be found at: https://dev.to/sanjan/how-to-add-swagger-ui-to-a-plain-flask-api-project-with-an-openapi-specification-file-1jl8
+API documentation was generated using Swagger and neatly implemented following a tutorial that can be found here: https://dev.to/sanjan/how-to-add-swagger-ui-to-a-plain-flask-api-project-with-an-openapi-specification-file-1jl8
