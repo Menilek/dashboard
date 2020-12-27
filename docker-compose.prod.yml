@@ -21,7 +21,6 @@ services:
     environment:
       BACKEND_BUILD_TIME_URL: backend
     volumes:
-      - ./frontend:/usr/src/frontend
       - static:/frontend/build
     depends_on:
       - backend

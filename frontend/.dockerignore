@@ -1,1 +1,9 @@
-node_modules
+# Files
+.dockerignore
+Dockerfile
+*.log
+
+# Folders
+.cache/
+node_modules/
+build/
