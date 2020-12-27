@@ -2,20 +2,20 @@ version: "3.8"
 
 services:
   backend:
-    build: 
+    build:
       context: "./backend"
       dockerfile: Dockerfile
     hostname: backend
     ports:
       - "5000:5000"
-    volumes: 
+    volumes:
       - ./backend:/usr/src/backend
     tty: true
     networks:
       - ipApp
 
   frontend:
-    build: 
+    build:
       context: "./frontend"
       dockerfile: Dockerfile
     environment:
@@ -32,6 +32,7 @@ services:
 networks:
   ipApp:
     driver: bridge
-
 #  docker-compose up --build -d
+#  docker-compose build --no-cache
+#  docker-compose up -d
 #  docker-compose down -v --rmi local

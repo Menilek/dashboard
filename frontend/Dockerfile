@@ -3,7 +3,7 @@ FROM node:15-alpine as build-stage
 RUN mkdir -p /usr/src/frontend
 WORKDIR /usr/src/frontend
 
-ARG BACKEND_BUILD_TIME_URL=0.0.0.0
+ARG BACKEND_BUILD_TIME_URL=menilek.tech
 ENV REACT_APP_BACKEND_URL=$BACKEND_BUILD_TIME_URL 
 
 COPY package.json /usr/src/frontend/
