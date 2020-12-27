@@ -7,7 +7,7 @@ ARG BACKEND_BUILD_TIME_URL=0.0.0.0
 ENV REACT_APP_BACKEND_URL=$BACKEND_BUILD_TIME_URL 
 
 COPY package.json /usr/src/frontend/
-COPY package-lock.json /usr/src/frontend/
+COPY yarn.lock /usr/src/frontend/
 RUN yarn install
 
 COPY . /usr/src/frontend
