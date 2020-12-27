@@ -13,6 +13,7 @@ services:
     tty: true
     networks:
       - ipApp
+
   frontend:
     build: 
       context: "./frontend"
@@ -27,6 +28,7 @@ services:
       - backend
     networks:
       - ipApp
+      
 networks:
   ipApp:
     driver: bridge
