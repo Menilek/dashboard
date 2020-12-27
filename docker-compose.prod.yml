@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  backend:
+    build: 
+      context: "./backend"
+      dockerfile: Dockerfile
+    hostname: backend
+    ports:
+      - "5000:5000"
+    volumes: 
+      - ./backend:/usr/src/backend
+    tty: true
+    networks:
+      - ipApp
+
+  frontend:
+    build: 
+      context: "./frontend"
+      dockerfile: Dockerfile
+    environment:
+      BACKEND_BUILD_TIME_URL: backend
+    volumes:
+      - ./frontend:/usr/src/frontend
+      - static:/frontend/build
+    depends_on:
+      - backend
+    networks:
+      - ipApp
+
+  nginx:
+      volumes:
+        - static:/usr/share/nginx/html
+        - ./webserver/nginx/default.conf:/etc/nginx/conf.d/default.conf
+        - ./webserver/nginx/nginx.conf:/etc/nginx/sites-enabled/site.com.conf # ⚠️
+        - ./webserver/nginx/nginx.conf:/etc/nginx/nginx.conf
+        - ./webserver/certbot/conf:/etc/letsencrypt
+        - ./webserver/certbot/www:/var/www/certbot
+      ports:
+        - 80:80
+        - 443:443
+      depends_on:
+        - frontend
+      networks:
+      - ipApp
+
+networks:
+  ipApp:
+
+volumes:
+  static:
+
+#  docker-compose up --build -d
+#  docker-compose down -v --rmi local
+
+# commands for Makefile
+# make certbot-test DOMAINS="site.com www.site.com" EMAIL=mail@site.com
+# make certbot-prod DOMAINS="site.com www.site.com" EMAIL=mail@site.com
+# make deploy-test
+# make deploy-prod
