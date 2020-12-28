@@ -14,9 +14,9 @@ COPY . /usr/src/frontend
 
 # EXPOSE 3000
 
-RUN yarn run build
-
 # CMD ["yarn", "start"]
+
+RUN yarn run build
 
 FROM nginx:1.19-alpine
 
@@ -28,8 +28,8 @@ EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
 
-# docker build --tag frontend . 
-# docker run --publish 80:80 --detach --name ff frontend
+# docker build --tag frontend .
+# docker run --publish 3000:3000 --detach --name ff frontend
 # docker stop ff
 # docker rm ff
 # docker ps
