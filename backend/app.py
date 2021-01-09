@@ -1,11 +1,9 @@
-from flask import Flask, render_template, redirect, url_for
-from flask_cors import CORS, cross_origin
+from init import *
+from models import *
 from api import api
+from flask import Flask, render_template, redirect, url_for
 
-app = Flask(__name__)
-CORS(app, support_credentials=True)
 app.register_blueprint(api)
-
 
 @app.route('/', methods=['GET'])
 @cross_origin(supports_credentials=True)
