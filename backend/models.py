@@ -5,8 +5,7 @@ from datetime import datetime
 from init import db
 
 class VisitRequest(db.Model):
-    __tablename__ = 'VisitorRequest'
-
+    
     id = db.Column(db.Integer, primary_key=True)
     ip_address = db.Column(db.String(), unique=True)
     city = db.Column(db.String())

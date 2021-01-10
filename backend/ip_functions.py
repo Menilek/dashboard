@@ -28,4 +28,5 @@ def insertIntoDB(visitor):
         # handleError(visit)
 
 def getEntries():
-    queryData = db.engine.execute("SELECT date_trunc('second', created_on), ip_address, city, internet_service_provider, timezone FROM VisitorRequest ORDER BY id DESC LIMIT 10").first()
+    queryData = db.engine.execute("SELECT date_trunc('second', created_on), ip_address, city, internet_service_provider, timezone FROM visit_request ORDER BY id DESC LIMIT 10").first()
+    return queryData

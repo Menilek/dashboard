@@ -5,25 +5,12 @@ from ip_functions import *
 
 api = Blueprint("ane", __name__)
 
-# git config --local user.name "Menilek"
-# git config --local user.email "menilek25@hotmail.co.uk"
-# https://superuser.com/questions/1064197/how-to-switch-git-user-at-terminal
-
 @api.route('/', methods=['GET'])
 def index():
     # RETURN 10 DB ENTRIES
     db_data = getEntries()
     print(db_data)
-    # header = 'Menilek.Tech/ane'
-    # title = 'WELCOME TO THE PARTY'
-    # ip_endpoint = 'http://ip-api.com/json/'
-    # ip_data = requests.get(ip_endpoint)
-    # ip_payload = ip_data.json()
-    # city = ip_payload['city']
-    # isp = ip_payload['isp']
-    # ip = ip_payload['query']
-    # tz = ip_payload['timezone']
-    # return render_template('index.html', header=header, title=title, city=city, isp=isp, tz=tz, ip=ip)
+
 
 @api.route('/api/visit', methods=['POST'])
 def visit():
