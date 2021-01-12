@@ -1,14 +1,17 @@
-from flask import Blueprint, request, render_template
+from flask import Blueprint, request, render_template, Response
 import requests
 import json
 from ip_functions import *
 
 api = Blueprint("ane", __name__)
 
-@api.route('/', methods=['GET'])
+
+@api.route('/api/visitors', methods=['GET'])
 def index():
     db_data = getEntries()
-    return db_data
+    res = Response(response=db_data, status=200, mimetype="application/json")
+    res.headers["Content-Type"] = "application/json"
+    return res
 
 
 @api.route('/api/visit', methods=['POST'])
@@ -32,6 +35,7 @@ def visit():
 #     "internet_service_provider": "Virgin Media",
 #     "timezone": "Europe/London"
 # }
+
 
 @api.route('/api/visitor', methods=['GET'])
 def visitor():
