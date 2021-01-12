@@ -8,13 +8,11 @@ from init import db
 #     return now
 
 def handleError(data):
-    # GRACEFULLY-IER CATCH ERROR
     db.session.rollback()
-    db.session.add(data)
     db.session.flush()
+    return False
 
 def insertIntoDB(visitor):
-    # PRINTING FOR DEBUGGING PURPOSES
     print('SAVING TO DB')
     # visit_time = getDatetimeNow()
     visit = VisitRequest(visitor['ip_address'], visitor['city'], visitor['internet_service_provider'], visitor['timezone'])
@@ -24,9 +22,16 @@ def insertIntoDB(visitor):
         db.session.close()
         return True
     except:
-        return False
-        # handleError(visit)
+        handleError(visit)
+
+def parseRow(row):
+    visit_request = { 'ip_address':row[0], 'city': row[1], 'internet_service_provider': row[2], 'timezone': row[3] }
+    return visit_request
 
 def getEntries():
-    queryData = db.engine.execute("SELECT date_trunc('second', created_on), ip_address, city, internet_service_provider, timezone FROM visit_request ORDER BY id DESC LIMIT 10").first()
-    return queryData
+    queryData = db.engine.execute("SELECT date_trunc('second', created_on), ip_address, city, internet_service_provider, timezone FROM visit_request ORDER BY id DESC LIMIT 10")
+    entries = []
+    for data in queryData:
+        visit = parseRow(data)
+        entries.append(visit)
+    return str(entries)
