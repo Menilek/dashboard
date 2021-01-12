@@ -6,25 +6,60 @@
     "description": "An API to return user meta data"
   },
   "paths": {
-    "/api/visitor": {
+    "/api/visitors": {
       "get": {
         "tags": [
           "Visitor"
         ],
-        "description": "Returns an object containing the user's meta data",
+        "summary": "Returns an array of objects containing users request data",
         "responses": {
           "200": {
             "description": "an object containing the user's City, Internet Service Prodiver, IP Address and Timezone",
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "example": {
-                    "city": "London",
-                    "isp": "Sky Broadband",
-                    "ip": "107.6.40.238",
-                    "tz": "London/Europe"
-                  }
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "date": {
+                        "type": "string"
+                      },
+                      "time": {
+                        "type": "string"
+                      },
+                      "ip_address": {
+                        "type": "string"
+                      },
+                      "city": {
+                        "type": "string"
+                      },
+                      "internet_service_provider": {
+                        "type": "string"
+                      },
+                      "timezone": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "example": [
+                    {
+                      "date": "10/01/2021",
+                      "time": "23: 04: 44",
+                      "ip_address": "107.6.40.238",
+                      "city": "London",
+                      "internet_service_provider": "Sky Broadband",
+                      "timezone": "London/Europe"
+                    },
+                    {
+                      "date": "09/01/2021",
+                      "time": "13: 51: 40",
+                      "ip_address": "71.96.24.40",
+                      "city": "Birmingham",
+                      "internet_service_provider": "Virgin Media",
+                      "timezone": "Europe/London"
+                    }
+                  ]
                 }
               }
             }
@@ -32,94 +67,32 @@
         }
       }
     },
-    "/api/city": {
-      "get": {
+    "/api/visit": {
+      "post": {
         "tags": [
           "Visitor"
         ],
-        "description": "Returns an object containing the user's city",
-        "responses": {
-          "200": {
-            "description": "an object containing the user's City",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "example": {
-                    "city": "London"
-                  }
+        "summary": "Create an entry in the database",
+        "requestBody": {
+          "description": "A user's date, time, ip address, city, internet service provider and timezone",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "ip_address": "71.96.24.40",
+                  "city": "Birmingham",
+                  "internet_service_provider": "Virgin Media",
+                  "timezone": "Europe/London"
                 }
               }
             }
           }
-        }
-      }
-    },
-    "/api/ip": {
-      "get": {
-        "tags": [
-          "Visitor"
-        ],
-        "description": "Returns an object containing the user's IP Address",
+        },
         "responses": {
           "200": {
-            "description": "an object containing the user's IP Address",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "example": {
-                    "ip": "107.6.40.238"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/isp": {
-      "get": {
-        "tags": [
-          "Visitor"
-        ],
-        "description": "Returns an object containing the user's Internet Service Provider",
-        "responses": {
-          "200": {
-            "description": "an object containing the user's Internet Service Provider",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "example": {
-                    "isp": "Sky Broadband"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/timezone": {
-      "get": {
-        "tags": [
-          "Visitor"
-        ],
-        "description": "Returns an object containing the user's timezone",
-        "responses": {
-          "200": {
-            "description": "an object containing the user's timezone",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "example": {
-                    "timezone": "London/Europ"
-                  }
-                }
-              }
-            }
+            "description": "Success"
           }
         }
       }
