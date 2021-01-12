@@ -1,16 +1,20 @@
+import json
+from init import *
+from models import *
+from api import *
 from flask import Flask, render_template, redirect, url_for
-from flask_cors import CORS, cross_origin
-from api import api
 
-app = Flask(__name__)
-CORS(app, support_credentials=True)
 app.register_blueprint(api)
-
 
 @app.route('/', methods=['GET'])
 @cross_origin(supports_credentials=True)
 def home():
-    return redirect(url_for('ane.index'))
+    response = app.response_class(
+        response="Nothing to see here",
+        status=200,
+        mimetype='application/text'
+    )
+    return response
 
 
 if __name__ == '__main__':
