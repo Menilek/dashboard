@@ -1,6 +1,7 @@
+import json
 from init import *
 from models import *
-from api import api
+from api import *
 from flask import Flask, render_template, redirect, url_for
 
 app.register_blueprint(api)
@@ -8,7 +9,14 @@ app.register_blueprint(api)
 @app.route('/', methods=['GET'])
 @cross_origin(supports_credentials=True)
 def home():
-    return redirect(url_for('ane.index'))
+    db_data = getEntries()
+    print(db_data)
+    response = app.response_class(
+        response=json.dumps(db_data),
+        status=200,
+        mimetype='application/json'
+    )
+    return response
 
 
 if __name__ == '__main__':

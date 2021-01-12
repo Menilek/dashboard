@@ -7,18 +7,13 @@ api = Blueprint("ane", __name__)
 
 @api.route('/', methods=['GET'])
 def index():
-    # RETURN 10 DB ENTRIES
     db_data = getEntries()
-    print(db_data)
+    return db_data
 
 
 @api.route('/api/visit', methods=['POST'])
 def visit():
-    # ADD ENTRY TO DB
-    # JUST TO BE SAFE
     if request.method == 'POST':
-        # PRINT FOR DEBUGGING PURPOSES
-        print('ABOUT TO SAVE TO DB')
         visit_data = request.json
         res = insertIntoDB(visit_data)
         if res == True:
@@ -27,7 +22,7 @@ def visit():
             }
         else:
             return {
-                'statusCode': 500
+                'statusCode': 304
             }
 
 # EXAMPLE REQUEST BODY
