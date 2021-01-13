@@ -1,20 +1,22 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import { TOGGLE_DARKTHEME } from './actions'
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { TOGGLE_DARKTHEME } from "./actions";
 
 const DarkThemeProvider = ({ children }) => {
-    const darkThemeEnabled = useSelector((state) => state.preferences.darkThemeEnabled);
-    const dispatch = useDispatch();
-    return (
-        <p>
-            <input
-                type='checkbox'
-                checked={darkThemeEnabled}
-                onChange={() => dispatch({ type: TOGGLE_DARKTHEME })}
-            ></input>
-            <span>Use Dark Theme</span>
-        </p>
-    )
-}
+  const darkThemeEnabled = useSelector(
+    (state) => state.preferences.darkThemeEnabled
+  );
+  const dispatch = useDispatch();
+  return (
+    <p>
+      <input
+        type="checkbox"
+        checked={darkThemeEnabled}
+        onChange={() => dispatch({ type: TOGGLE_DARKTHEME })}
+      ></input>
+      <span>Use Dark Theme</span>
+    </p>
+  );
+};
 
-export default DarkThemeProvider
+export default DarkThemeProvider;

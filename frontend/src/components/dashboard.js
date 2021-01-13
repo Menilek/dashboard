@@ -1,5 +1,6 @@
 import { React, Component } from "react";
-import { getIPData } from "../actions/utility/ipFunctions";
+import { getIPData } from "../actions/utility/ipActions";
+// import { postToDB } from "../actions/utility/dbActions";
 
 class IpDashboard extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class IpDashboard extends Component {
 
   async componentDidMount() {
     let ipData = await getIPData();
+    // await postToDB(ipData);
     this.parseIPData(ipData);
   }
 
