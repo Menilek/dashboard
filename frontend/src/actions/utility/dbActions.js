@@ -16,3 +16,14 @@ export const postToDB = async (ipData) => {
     console.error(err);
   }
 };
+
+export const getDBEntries = async () => {
+  try {
+    const res = await axios.get("/visitors");
+    console.log("res" + res);
+    console.log("res" + res.data);
+    return res;
+  } catch (err) {
+    console.error(err);
+  }
+};
