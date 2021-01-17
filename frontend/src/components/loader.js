@@ -4,9 +4,7 @@ import { Spinner } from "reactstrap";
 const Loader = () => {
   return (
     <div>
-      <Spinner animation="border" role="status">
-        <span className="sr-only">Loading...</span>
-      </Spinner>
+      <Spinner animation="border" role="status" />
     </div>
   );
 };
