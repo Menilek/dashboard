@@ -2,7 +2,7 @@ import json
 from init import *
 from models import *
 from api import *
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask
 
 app.register_blueprint(api)
 
