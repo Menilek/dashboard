@@ -1,44 +1,39 @@
-import { React, Component } from "react";
+import { React, useState, useEffect } from "react";
 import { getIPData } from "../actions/utility/ipActions";
 // import { postToDB, getDBEntries } from "../actions/utility/dbActions";
+import Loader from "./loader";
 
-class IpDashboard extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      city: null,
-      isp: null,
-      ip: null,
-      tz: null,
-    };
-  }
+const IpDashboard = () => {
+  const [loading, setLoading] = useState(true);
+  const [city, setCity] = useState("");
+  const [isp, setISP] = useState("");
+  const [ip, setIP] = useState("");
+  const [tz, setTZ] = useState("");
 
-  parseIPData = (ipData) => {
-    this.setState({
-      city: ipData.city,
-      isp: ipData.isp,
-      ip: ipData.ip,
-      tz: ipData.tz,
-    });
-  };
+  useEffect(() => {
+    async function fetchIPData() {
+      let res = await getIPData();
+      setCity(res.city);
+      setISP(res.isp);
+      setIP(res.ip);
+      setTZ(res.tz);
+    }
+    fetchIPData();
+    setLoading(false);
+  }, []);
 
-  async componentDidMount() {
-    let ipData = await getIPData();
-    // await postToDB(ipData);
-    // await getDBEntries();
-    this.parseIPData(ipData);
-  }
-
-  render() {
+  if (loading) {
+    return <Loader />;
+  } else {
     return (
       <div style={{ textAlign: "center" }}>
-        <p>IP Location: {this.state.city}</p>
-        <p>IP Address: {this.state.ip}</p>
-        <p>Internet Service Provider: {this.state.isp}</p>
-        <p>Timezone: {this.state.tz}</p>
+        <p>IP Location: {city}</p>
+        <p>IP Address: {ip}</p>
+        <p>Internet Service Provider: {isp}</p>
+        <p>Timezone: {tz}</p>
       </div>
     );
   }
-}
+};
 
 export default IpDashboard;
