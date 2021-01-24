@@ -40,7 +40,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/ane">
+        <Route exact path="/ane/dashboard">
           <Provider store={store}>
             <DarkThemeProvider>
               <Container>
@@ -51,7 +51,7 @@ function App() {
           </Provider>
         </Route>
         <Route path="/">
-          <Redirect to="/ane" />
+          <Redirect to="/ane/dashboard" />
         </Route>
       </Switch>
     </Router>
