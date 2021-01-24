@@ -10,13 +10,15 @@ load_dotenv(dotenv_path)
 
 USERNAME = os.environ.get("USERNAME")
 PASSWORD = os.environ.get("PASSWORD")
+HOSTNAME = os.environ.get("POSTGRES_HOSTNAME")
+PORT = os.environ.get("POSTGRES_PORT")
+DATABASE = os.environ.get("APPLICATION_DB")
 
-DATABASE_URI = 'postgres+psycopg2://' + USERNAME + \
-    ':' + PASSWORD + '@localhost:5432/ipdata'
+SQLALCHEMY_DATABASE_URI = 'postgres+psycopg2://' + USERNAME + ':' + PASSWORD + '@' + HOSTNAME + ':' + PORT + '/' + DATABASE
 
 app = Flask(__name__)
 CORS(app, support_credentials=True)
-app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URI
+app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 

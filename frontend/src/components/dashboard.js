@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
-import { getIPData } from "../actions/utility/ipFunctions";
+import { getIPData } from "../actions/utility/ipActions";
+// import { postToDB, getDBEntries } from "../actions/utility/dbActions";
 import Loader from "./loader";
 
 const IpDashboard = () => {

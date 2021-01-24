@@ -1,18 +1,40 @@
 version: "3.8"
 
 services:
-  backend:
-    build:
-      context: "./backend"
-      dockerfile: Dockerfile
-    hostname: backend
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./backend:/usr/src/backend
-    tty: true
-    networks:
-      - ipApp
+  # db:
+  #   environment:
+  #     POSTGRES_USER: ${USER}
+  #     POSTGRES_PASSWORD: ${PASSWORD}
+  #     POSTGRES_DB: ${DB}
+  #   image: postgres:latest
+  #   ports:
+  #     - "${POSTGRES_PORT}:5432"
+  #   restart: always
+  #   volumes:
+  #     - ./postgres-data:/var/lib/postgresql/data
+  #   networks:
+  #     - ipApp
+
+  # backend:
+  #   build:
+  #     context: "./backend"
+  #     dockerfile: Dockerfile
+  #   environment:
+  #     POSTGRES_USER: ${USER}
+  #     POSTGRES_PASSWORD: ${PASSWORD}
+  #     POSTGRES_DB: "db"
+  #     APPLICATION_DB: ${APPLICATION_DB}
+  #     POSTGRES_PORT: ${POSTGRES_PORT}
+  #   hostname: backend
+  #   ports:
+  #     - "5000:5000"
+  #   volumes:
+  #     - ./backend:/usr/src/backend
+  #   depends_on:
+  #     - db
+  #   tty: true
+  #   networks:
+  #     - ipApp
 
   frontend:
     build:
@@ -24,8 +46,8 @@ services:
       - "80:80"
     volumes:
       - ./frontend:/usr/src/frontend
-    depends_on:
-      - backend
+    # depends_on:
+    #   - backend
     networks:
       - ipApp
 
@@ -33,6 +55,8 @@ networks:
   ipApp:
     driver: bridge
 #  docker-compose up --build -d
+#  docker-compose exec backend python manage.py create_db
+#  docker-compose exec backend python ./manage.py db psql -U menilek
 #  docker-compose build --no-cache
 #  docker-compose up -d
 #  docker-compose down -v --rmi local
