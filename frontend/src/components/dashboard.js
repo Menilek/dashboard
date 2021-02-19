@@ -26,11 +26,11 @@ const IpDashboard = () => {
     return <Loader />;
   } else {
     return (
-      <div style={{ textAlign: "center" }}>
-        <p>IP Location: {city}</p>
-        <p>IP Address: {ip}</p>
-        <p>Internet Service Provider: {isp}</p>
-        <p>Timezone: {tz}</p>
+      <div className="dashboard">
+        <h3 className="ip-data">IP Location: {city}</h3>
+        <h3 className="ip-data">IP Address: {ip}</h3>
+        <h3 className="ip-data">Internet Service Provider: {isp}</h3>
+        <h3 className="ip-data">Timezone: {tz}</h3>
       </div>
     );
   }
