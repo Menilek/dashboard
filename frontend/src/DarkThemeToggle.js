@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { TOGGLE_DARKTHEME } from "./actions";
+import "./App.css";
 
 const DarkThemeProvider = ({ children }) => {
   const darkThemeEnabled = useSelector(
@@ -8,14 +9,14 @@ const DarkThemeProvider = ({ children }) => {
   );
   const dispatch = useDispatch();
   return (
-    <p>
+    <label class="switch">
       <input
         type="checkbox"
         checked={darkThemeEnabled}
         onChange={() => dispatch({ type: TOGGLE_DARKTHEME })}
       ></input>
-      <span>Use Dark Theme</span>
-    </p>
+      <span class="slider round"></span>
+    </label>
   );
 };
 
