@@ -13,6 +13,8 @@ import store from "./store";
 import DarkThemeProvider from "./DarkThemeProvider";
 import DarkThemeToggle from "./DarkThemeToggle";
 import IpDashboard from "./components/dashboard.js";
+import Splash from "./components/splash";
+// import NavBar from "./components/navbar";
 
 export const backgroundColour = theme("theme", {
   light: "#fff",
@@ -25,13 +27,13 @@ export const textColour = theme("theme", {
 });
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   width: 100vw;
   height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-family: sans-serif;
+  // align-items: center;
+  // justify-content: center;
+  // font-family: sans-serif;
   background-color: ${backgroundColour};
   color: ${textColour};
 `;
@@ -44,14 +46,25 @@ function App() {
           <Provider store={store}>
             <DarkThemeProvider>
               <Container>
-                <IpDashboard />
+                {/* <NavBar /> */}
                 <DarkThemeToggle />
+                <IpDashboard />
+              </Container>
+            </DarkThemeProvider>
+          </Provider>
+        </Route>
+        <Route path="/ane">
+          <Provider store={store}>
+            <DarkThemeProvider>
+              <Container>
+                <DarkThemeToggle />
+                <Splash />
               </Container>
             </DarkThemeProvider>
           </Provider>
         </Route>
         <Route path="/">
-          <Redirect to="/ane/dashboard" />
+          <Redirect to="/ane" />
         </Route>
       </Switch>
     </Router>
