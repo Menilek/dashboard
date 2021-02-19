@@ -3,6 +3,8 @@
 .env
 postgres-data/
 
+dashboard.png
+
 backend/env
 backend/.env
 backend/__pycache__
