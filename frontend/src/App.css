@@ -1,38 +1,120 @@
-.App {
+/* .navbar{
+  margin-top: 0em;
+  margin-left: 5%;
+  font-size: 2em;
+} */
+
+.big-title {
+  font-size: 5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard{
+  text-align: center;
+  margin-top: 8em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ip-data{
+  margin: 0.75em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.floating { 
+	animation-name: floating; 
+	animation-duration: 3s; 
+	animation-iteration-count: infinite; 
+	animation-timing-function: ease-in-out; 
+	margin-left: 30px; 
+	margin-top: 1em; 
+} 
+
+@keyframes floating { 
+	0% { transform: translate(0, 0px); } 
+	50% { transform: translate(0, 15px); } 
+	100% { transform: translate(0, -0px); }	 
+} 
+
+.site-thumb{
+  width: 100%;
+  height: 100%;
+}
+
+.grid {
+  margin-top: 12em;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cell {
+  align-items: right;
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 28vh;
+  width: 28vw;
+  margin: 1em 1em;
+  /* background-color: #999; */
 }
 
-.App-link {
-  color: #61dafb;
+/* The switch - the box around the slider */
+.switch {
+  margin-top: 2em;
+  margin-left: 95%;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #555;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #555;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
