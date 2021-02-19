@@ -37,7 +37,7 @@ function Splash() {
             </a>
           </Container>
           <Link to="/ane/dashboard">
-          <img src={dashboard} className="site-thumb" alt="site thumbnail" />
+            <img src={dashboard} className="site-thumb" alt="site thumbnail" />
           </Link>
           {/* <a href="http://menilek.tech/ane/dashboard">
             <img src={dashboard} className="site-thumb" alt="site thumbnail" />
