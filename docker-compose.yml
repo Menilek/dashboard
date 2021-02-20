@@ -1,6 +1,18 @@
 version: "3.8"
 
 services:
+  caddy:
+    image: "abiosoft/caddy:latest"
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./data/caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./data/caddy/data:/data
+      - ./data/caddy/config:/config
+    networks:
+      - ipApp
   # db:
   #   environment:
   #     POSTGRES_USER: ${USER}
@@ -41,19 +53,21 @@ services:
       context: "./frontend"
       dockerfile: Dockerfile
     environment:
-      BACKEND_BUILD_TIME_URL: backend
+      - url=https://www.menilek.tech
+      # - BACKEND_BUILD_TIME_URL: backend
     ports:
-      - "80:80"
+      - "3000:3000"
     volumes:
       - ./frontend:/usr/src/frontend
-    # depends_on:
-    #   - backend
+    depends_on:
+      - caddy
     networks:
       - ipApp
 
 networks:
   ipApp:
     driver: bridge
+    external: true
 #  docker-compose up --build -d
 #  docker-compose exec backend python manage.py create_db
 #  docker-compose exec backend python ./manage.py db psql -U menilek
