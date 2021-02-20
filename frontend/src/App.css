@@ -1,8 +1,3 @@
-/* .navbar{
-  margin-top: 0em;
-  margin-left: 5%;
-  font-size: 2em;
-} */
 .main-grid {
   display: grid;
   width: 100vw;
@@ -41,6 +36,10 @@
     font-size: 6em;
     text-align: center;
   }
+}
+*/ .big-title {
+  font-size: 10vw;
+  text-align: center;
 }
 
 .dashboard {
@@ -89,11 +88,11 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .cell {
-  align-items: right;
-  flex: 0 0 32%;
-  height: 28vh;
-  width: 28vw;
-  margin: 1em 1em;
+  /* align-items: right; */
+  /* flex: 0 0 32%; */
+  /* height: 28vh;
+  width: 28vw; */
+  /* margin: 1em 1em; */
 }
 
 /* The switch - the box around the slider */
