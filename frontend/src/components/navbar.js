@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import { Navbar, NavLink } from "reactstrap";
 import "../App.css";
 
@@ -16,10 +15,6 @@ function NavBar() {
           <i class="fas fa-home"></i>
         </NavLink>
       </Navbar>
-      {/* <Link to="/ane">
-        <i class="fas fa-home"></i>
-        <i class="fas fa-wifi"></i>
-      </Link> */}
     </div>
   );
 }

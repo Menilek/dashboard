@@ -19,14 +19,14 @@ function Splash() {
     <div>
       <div className="grid">
       <Row>
-        <Col sm={12} lg={12}>
+        <Col sm={12} md={12} lg={12}>
           <h1 className="big-title floating">
-            &#123;&#123; menilek.tech/ane &#125;&#125;
+            &#123;  menilek.tech/ane  &#125;
           </h1>
         </Col>
       </Row>
-        <Row>
-          <Col sm={12} lg={4}>
+        <Row className="site-collection">
+          <Col sm={12} md={12} lg={4}>
             <div className="cell">
               <Container>
                 <a href="http://www.gillianscafe.co.uk/">
@@ -42,7 +42,7 @@ function Splash() {
               </a>
             </div>
           </Col>
-          <Col sm={12} lg={4}>
+          <Col sm={12} md={12} lg={4}>
             <div className="cell">
               <Container>
                 <a href="https://github.com/Menilek/ip-dashboard">
@@ -58,7 +58,7 @@ function Splash() {
               </Link>
             </div>
           </Col>
-          <Col sm={12} lg={4}>
+          <Col sm={12} md={4} lg={4}>
             <div className="cell">
               <Container>
                 <a href="https://github.com/Menilek/PoundForPound">
