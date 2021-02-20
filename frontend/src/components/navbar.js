@@ -1,13 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Navbar, NavLink } from "reactstrap";
 import "../App.css";
 
 function NavBar() {
   return (
-    <div className="navbar">
-      <Link to="/ane">
+    <div>
+      <Navbar  light expand="lg">
+        <NavLink href="/ane/dashboard">
+          <i class="fas fa-wifi"></i>
+        </NavLink>
+      </Navbar>
+      <Navbar  light expand="lg">
+        <NavLink href="/ane">
+          <i class="fas fa-home"></i>
+        </NavLink>
+      </Navbar>
+      {/* <Link to="/ane">
         <i class="fas fa-home"></i>
-      </Link>
+        <i class="fas fa-wifi"></i>
+      </Link> */}
     </div>
   );
 }
