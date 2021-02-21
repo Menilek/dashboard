@@ -6,6 +6,7 @@ WORKDIR /usr/src/frontend
 COPY package.json /usr/src/frontend/
 COPY yarn.lock /usr/src/frontend/
 RUN yarn install
+RUN yarn install react-scripts
 
 COPY . /usr/src/frontend
 
