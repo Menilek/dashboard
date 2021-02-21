@@ -59,8 +59,8 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend:/usr/src/frontend
-    depends_on:
-      - caddy
+    # depends_on:
+    #   - caddy
     networks:
       - ipApp
 
