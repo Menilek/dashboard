@@ -4,15 +4,15 @@ RUN mkdir -p /usr/src/frontend
 WORKDIR /usr/src/frontend
 
 COPY package.json /usr/src/frontend/
-COPY yarn.lock /usr/src/frontend/
-RUN yarn install
-RUN yarn global add react-scripts
+COPY package-lock.json /usr/src/frontend/
+RUN npm i
+# RUN yarn global add react-scripts
 
 COPY . /usr/src/frontend
 
 EXPOSE 3000
 
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
 
 # RUN yarn run build
 

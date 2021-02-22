@@ -73,4 +73,5 @@ networks:
 #  docker-compose exec backend python ./manage.py db psql -U menilek
 #  docker-compose build --no-cache
 #  docker-compose up -d
+#  docker-compose up --force-recreate
 #  docker-compose down -v --rmi local
