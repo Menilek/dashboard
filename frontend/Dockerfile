@@ -1,20 +1,25 @@
-FROM node:15-alpine as build-stage
+FROM node:15-alpine3.10 as build-stage
 
 RUN mkdir -p /usr/src/frontend
 WORKDIR /usr/src/frontend
 
 COPY package.json /usr/src/frontend/
 COPY package-lock.json /usr/src/frontend/
-RUN npm i
-# RUN yarn global add react-scripts
+RUN npm install -g npm@latest
+RUN npm install --save --legacy-peer-deps
+# RUN npm i react react-dom react-scripts -g
 
-COPY . /usr/src/frontend
+COPY . /usr/src/frontend/
 
 EXPOSE 3000
 
 CMD ["npm", "start"]
 
-# RUN yarn run build
+# EXPOSE 3000
+
+# RUN npm run serveprod
+
+# CMD ["http-server", "/build"]
 
 # FROM nginx:1.19-alpine
 
