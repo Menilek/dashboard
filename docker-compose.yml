@@ -1,18 +1,38 @@
 version: "3.8"
 
 services:
-  caddy:
-    image: "abiosoft/caddy:latest"
+  traefik:
+    image: traefik:v2.4
+    container_name: traefik
     restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./data/caddy/Caddyfile:/etc/caddy/Caddyfile
-      - ./data/caddy/data:/data
-      - ./data/caddy/config:/config
+    security_opt:
+      - no-new-privileges:true
     networks:
       - ipApp
+    ports:
+      - 80:80
+      - 443:443
+      # - 8080:8080
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik.yml:/traefik.yml:ro
+      - ./letsencrypt/acme.json:/acme.json
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=ipApp"
+      - "traefik.http.routers.traefik.entrypoints=http"
+      # - "traefik.http.routers.traefik.rule=Host(`localhost`)"
+      - "traefik.http.routers.traefik.rule=Host(`menilek.tech`)"
+      - "traefik.http.middlewares.traefik-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.traefik.middlewares=traefik-https-redirect"
+      - "traefik.http.routers.traefik-secure.entrypoints=https"
+      - "traefik.http.routers.traefik-secure.rule=Host(`menilek.tech`)"
+      - "traefik.http.routers.traefik-secure.tls=true"
+      - "traefik.http.routers.traefik-secure.tls.certresolver=http"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      - "--certificatesresolvers.myresolver.acme.email=menilek25@hotmail.co.uk"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
   # db:
   #   environment:
   #     POSTGRES_USER: ${USER}
@@ -52,15 +72,22 @@ services:
     build:
       context: "./frontend"
       dockerfile: Dockerfile
-    environment:
-      - url=https://www.menilek.tech
-      # - BACKEND_BUILD_TIME_URL: backend
-    ports:
-      - "3000:3000"
+    # ports:
+    #   - 3000:3000
     volumes:
       - ./frontend:/usr/src/frontend
-    # depends_on:
-    #   - caddy
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.entrypoints=http"
+      # - "traefik.http.routers.frontend.rule=Host(`frontend.localhost`)"
+      - "traefik.http.routers.frontend.rule=Host(`frontend.menilek.tech`)"
+      - "traefik.http.middlewares.frontend-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.frontend.middlewares=frontend-https-redirect"
+      - "traefik.http.services.frontend.loadbalancer.server.port=80"
+      - "traefik.docker.network=ipApp"
+      - "traefik.port=80"
     networks:
       - ipApp
 

@@ -1,0 +1,31 @@
+entryPoints:
+  http:
+    address: ":80"
+  https:
+    address: ":443"
+
+providers:
+  docker:
+    network: ipApp
+    exposedByDefault: false
+
+api:
+  insecure: true
+  dashboard: true
+
+log:
+  level: DEBUG
+  filePath: "log-file.log"
+  format: json
+
+accessLog:
+  filePath: "log-access.log"
+  bufferingSize: 100  
+
+certificatesResolvers:
+  letsencrypt:
+    acme:
+      email: menilek25@hotmail.co.uk
+      storage: acme.json
+      httpChallenge:
+        entryPoint: http
