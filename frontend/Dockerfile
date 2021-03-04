@@ -11,25 +11,21 @@ RUN npm install --save --legacy-peer-deps
 
 COPY . /usr/src/frontend/
 
-EXPOSE 3000
-
-CMD ["npm", "start"]
-
 # EXPOSE 3000
 
-# RUN npm run serveprod
+# CMD ["npm", "start"]
 
-# CMD ["http-server", "/build"]
+RUN npm run build
 
-# FROM nginx:1.19-alpine
+FROM nginx:1.19-alpine
 
-# COPY --from=build-stage /usr/src/frontend/build/ /usr/share/nginx/html
+COPY --from=build-stage /usr/src/frontend/build/ /usr/share/nginx/html
 
-# COPY --from=build-stage /usr/src/frontend/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build-stage /usr/src/frontend/nginx.conf /etc/nginx/conf.d/default.conf
 
-# EXPOSE 80
+EXPOSE 80
 
-# CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
 
 # docker build --tag frontend .
 # docker run --publish 3000:3000 --detach --name ff frontend
