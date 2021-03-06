@@ -8,6 +8,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import SplashPage from "./pages/splashPage";
+import AmharicPage from "./pages/amharicPage";
 import DashboardPage from "./pages/dashboardPage";
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       <Switch>
         <Route exact path="/ane/dashboard">
           <DashboardPage />
+        </Route>
+        <Route exact path="/ane/learn-amharic">
+          <AmharicPage />
         </Route>
         <Route path="/ane">
           <SplashPage />

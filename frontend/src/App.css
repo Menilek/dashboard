@@ -95,6 +95,20 @@
   /* margin: 1em 1em; */
 }
 
+.languageTable {
+  margin-top: 1em;
+}
+
+.languageTitle {
+  margin-top: 1em;
+  text-align: center;
+} 
+
+.amharic-link {
+  font-style: normal;
+  font-weight: bold;
+}
+
 /* The switch - the box around the slider */
 .switch {
   margin-top: 2em;

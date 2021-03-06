@@ -28,7 +28,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 # docker build --tag frontend .
-# docker run --publish 3000:3000 --detach --name ff frontend
+# docker run --publish 80:80 --detach --name ff frontend
 # docker stop ff
 # docker rm ff
 # docker ps
