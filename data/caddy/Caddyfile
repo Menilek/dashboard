@@ -1,9 +1,0 @@
-{
-    email menilek25@hotmail.co.uk
-}
-menilek.tech {
-    reverse_proxy frontend:3000
-}
-www.menilek.tech {
-    redir https://www.menilek.tech
-}
