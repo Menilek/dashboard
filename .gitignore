@@ -3,9 +3,9 @@
 .env
 postgres-data/
 
-backend/env
-backend/.env
-backend/__pycache__
+backend/IpApp/env
+backend/IpApp/.env
+backend/IpApp/__pycache__
 
 frontend/node_modules
 frontend/dist
