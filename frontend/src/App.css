@@ -104,6 +104,18 @@
   text-align: center;
 } 
 
+.languageButton {
+  text-align: center;
+}
+
+/* .languageModal {
+  width: 70vw !important;
+} */
+
+.tableAction {
+  cursor: pointer;
+}
+
 .amharic-link {
   font-style: normal;
   font-weight: bold;
