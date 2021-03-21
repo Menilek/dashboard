@@ -1,15 +1,54 @@
 import axios from "axios";
 
-export const postToDB = async (ipData) => {
+// export const postToDB = async (ipData) => {
+//   try {
+//     await axios({
+//       method: "post",
+//       url: "/visit",
+//       data: {
+//         ip_address: ipData.ip,
+//         city: ipData.city,
+//         internet_service_provider: ipData.isp,
+//         timezone: ipData.tz,
+//       },
+//     });
+//   } catch (err) {
+//     console.error(err);
+//   }
+// };
+
+// export const getDBEntries = async () => {
+//   try {
+//     const res = await axios.get("/visitors");
+//     return res;
+//   } catch (err) {
+//     console.error(err);
+//   }
+// };
+
+const endpoint = process.env.REACT_APP_BACKEND_URL;
+// const endpoint = "0.0.0.0"; //FOR DEVELOPMENT
+
+export const getWords = async () => {
+  try {
+    const res = await axios.get(`http://${endpoint}:3001/api/words`);
+    console.log(res.data);
+    return res.data;
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+export const addWord = async (word) => {
   try {
     await axios({
       method: "post",
-      url: "/visit",
+      url: `http://${endpoint}:3001/api/words`,
       data: {
-        ip_address: ipData.ip,
-        city: ipData.city,
-        internet_service_provider: ipData.isp,
-        timezone: ipData.tz,
+        amharic: word.amharic,
+        geez: word.geez,
+        english: word.english,
+        category: word.category,
       },
     });
   } catch (err) {
@@ -17,21 +56,18 @@ export const postToDB = async (ipData) => {
   }
 };
 
-export const getDBEntries = async () => {
+export const deleteWord = async (id) => {
   try {
-    const res = await axios.get("/visitors");
-    return res;
+    let url = `http://${endpoint}:3001/api/words/${id}`;
+    await axios.delete(url);
   } catch (err) {
     console.error(err);
   }
 };
 
-export const getWords = async () => {
+// TODO: IMPLEMENT ME!
+export const editWord = async (id) => {
   try {
-    let endpoint = process.env.REACT_APP_BACKEND_URL;
-    const res = await axios.get("http://" + endpoint + ":3001/api/words");
-    // const res = await axios.get("http://0.0.0.0:3001/api/words");
-    return res.data;
   } catch (err) {
     console.error(err);
   }
