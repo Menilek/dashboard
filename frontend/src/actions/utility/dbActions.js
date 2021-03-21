@@ -20,9 +20,18 @@ export const postToDB = async (ipData) => {
 export const getDBEntries = async () => {
   try {
     const res = await axios.get("/visitors");
-    console.log("res" + res);
-    console.log("res" + res.data);
     return res;
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+export const getWords = async () => {
+  try {
+    let endpoint = process.env.REACT_APP_BACKEND_URL;
+    const res = await axios.get("http://" + endpoint + ":3001/api/words");
+    // const res = await axios.get("http://0.0.0.0:3001/api/words");
+    return res.data;
   } catch (err) {
     console.error(err);
   }
