@@ -24,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "serve": "cd .. && cd backend/AmharicAPI && npx nodemon server.js",
+    "dev": "concurrently \"npm run serve\" \"npm start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -52,6 +54,7 @@
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.12.7",
     "babel-loader": "8.1.0",
+    "concurrently": "^6.0.0",
     "cross-env": "^7.0.2",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.2",

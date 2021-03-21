@@ -7,10 +7,10 @@ function NavBar() {
     <div>
       <Navbar expand="sm">
         <NavLink href="/ane">
-          <i class="fas fa-home"></i>
+          <i className="fas fa-home"></i>
         </NavLink>
         <NavLink href="/ane/dashboard">
-          <i class="fas fa-wifi"></i>
+          <i className="fas fa-wifi"></i>
         </NavLink>
         <NavLink href="/ane/learn-amharic">
           <i className="amharic-link">አማርኛ</i>
