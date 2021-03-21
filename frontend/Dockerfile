@@ -3,6 +3,10 @@ FROM node:15-alpine3.10 as build-stage
 RUN mkdir -p /usr/src/frontend
 WORKDIR /usr/src/frontend
 
+ARG BACKEND_BUILD_TIME_URL=menilek.tech
+# ARG BACKEND_BUILD_TIME_URL=0.0.0.0
+ENV REACT_APP_BACKEND_URL=$BACKEND_BUILD_TIME_URL 
+
 COPY package.json /usr/src/frontend/
 COPY package-lock.json /usr/src/frontend/
 RUN npm install -g npm@latest
