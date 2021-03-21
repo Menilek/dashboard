@@ -7,9 +7,9 @@ const router = express.Router();
 // desc Get all words
 // @access Public
 router.get("/", async (req, res) => {
-  Word.find().then(
-    (words) => res.status(200).json(words)
-  );
+  Word.find()
+    .sort({ english: 1 })
+    .then((words) => res.status(200).json(words));
 });
 
 // @route POST api/word
@@ -17,21 +17,35 @@ router.get("/", async (req, res) => {
 // @access Public
 // TODO: add auth to endpoint
 router.post("/", (req, res) => {
-  const newWord = new Word({
-    geez: req.body.geez,
-    amharic: req.body.amharic,
-    english: req.body.english,
-    category: req.body.category
-  });
-  console.log("ADDING NEW WORD")
-  newWord.save().then((word) => res.json(word));
+  try {
+    const newWord = new Word({
+      geez: req.body.geez,
+      amharic: req.body.amharic,
+      english: req.body.english,
+      category: req.body.category,
+    });
+    newWord.save().then((word) => res.json(word));
+  } catch (err) {
+    console.error(err);
+  }
 });
 
-// {
-//   "geez": "መለወጥ",
-//   "english": "Change",
-//   "amharic": "Melewet",
-//   "category": "verb"
-// }
+// @route DELETE api/word/:id
+// desc Deletes a word
+// @access Public
+// TODO: add auth to endpoint
+router.delete("/:id", (req, res) => {
+  try {
+    Word.findById(req.params.id)
+      .then((word) => {
+        word.remove().then(() => res.json({ success: true }));
+      })
+      .catch((err) => {
+        res.status(404).json({ success: false });
+      });
+  } catch (err) {
+    console.error(err);
+  }
+});
 
 module.exports = router;
