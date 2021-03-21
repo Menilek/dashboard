@@ -10,16 +10,21 @@ const IpDashboard = () => {
   const [ip, setIP] = useState("");
   const [tz, setTZ] = useState("");
 
+  async function fetchIPData() {
+    let res = await getIPData();
+    setCity(res.city);
+    setISP(res.isp);
+    setIP(res.ip);
+    setTZ(res.tz);
+  }
+
   useEffect(() => {
-    async function fetchIPData() {
-      let res = await getIPData();
-      setCity(res.city);
-      setISP(res.isp);
-      setIP(res.ip);
-      setTZ(res.tz);
+    try {
+      fetchIPData();
+      setLoading(false);
+    } catch (err) {
+      console.error(err);
     }
-    fetchIPData();
-    setLoading(false);
   }, []);
 
   if (loading) {

@@ -5,7 +5,6 @@ import "../App.css";
 import dashboard from "../img/dashboard.png";
 import cafesite from "../img/cafe-site.png";
 import p4p from "../img/p4p.png";
-// import fantasyfighter from "../img/fantasyfighter.png";
 
 function Splash() {
   return (
