@@ -2,7 +2,7 @@ import { React, useState, useEffect } from "react";
 import { Table } from "reactstrap";
 import { getWords } from "../actions/utility/dbActions";
 
-function LanguageTable() {
+const LanguageTable = () => {
   const [words, setWords] = useState([]);
 
   const fetchWords = async () => {
@@ -25,18 +25,18 @@ function LanguageTable() {
         <Table>
           <thead>
             <tr>
-              <th>Ge'ez</th>
-              <th>āmarinya</th>
               <th>English</th>
+              <th>āmarinya</th>
+              <th>Ge'ez</th>
             </tr>
           </thead>
 
           <tbody>
             {words?.map((word) => (
               <tr key={word.english}>
-                <td>{word.geez}</td>
-                <td>{word.amharic}</td>
                 <td>{word.english}</td>
+                <td>{word.amharic}</td>
+                <td>{word.geez}</td>
               </tr>
             ))}
           </tbody>
@@ -44,6 +44,6 @@ function LanguageTable() {
       </div>
     </div>
   );
-}
+};
 
 export default LanguageTable;
