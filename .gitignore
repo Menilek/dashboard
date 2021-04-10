@@ -8,6 +8,8 @@ backend/IpApp/.env
 backend/IpApp/__pycache__
 
 backend/amharicAPI/node_modules
+backend/amharicAPI/scripts/env
+backend/amharicAPI/scripts/.env
 
 frontend/node_modules
 frontend/dist
