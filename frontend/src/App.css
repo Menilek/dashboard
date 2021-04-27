@@ -102,9 +102,21 @@
 .languageTitle {
   margin-top: 1em;
   text-align: center;
-} 
+}
 
-.languageButton {
+.languageActions {
+  position: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1em;
+  text-align: center;
+}
+
+.deleteButtons {
+  position: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1em;
   text-align: center;
 }
 
