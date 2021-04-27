@@ -21,7 +21,7 @@ function Splash() {
           <Col sm={12} md={12} lg={4}>
             <div className="cell">
               <a href="http://www.gillianscafe.co.uk/">
-                <i class="fas fa-utensils"></i>
+                <i className="fas fa-utensils"></i>
               </a>
               <a href="http://www.gillianscafe.co.uk/">
                 <img
@@ -35,7 +35,7 @@ function Splash() {
           <Col sm={12} md={12} lg={4}>
             <div className="cell">
               <a href="https://github.com/Menilek/ip-dashboard">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <Link to="/ane/dashboard">
                 <img
@@ -49,7 +49,7 @@ function Splash() {
           <Col sm={12} md={12} lg={4}>
             <div className="cell">
               <a href="https://github.com/Menilek/PoundForPound">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <a href="https://top-fighters.herokuapp.com/">
                 <img src={p4p} className="site-thumb" alt="site thumbnail" />
