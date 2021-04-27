@@ -9,6 +9,7 @@ function Layout({ children }) {
         <NavBar />
       </header>
       <main>
+        <div id="modal-root"></div>
         <div className="main-container">{children}</div>
       </main>
     </div>
