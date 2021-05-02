@@ -33,65 +33,31 @@ services:
   #     - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
   #     - "--certificatesresolvers.myresolver.acme.email=menilek25@hotmail.co.uk"
   #     - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
-  # db:
-  #   environment:
-  #     POSTGRES_USER: ${USER}
-  #     POSTGRES_PASSWORD: ${PASSWORD}
-  #     POSTGRES_DB: ${DB}
-  #   image: postgres:latest
-  #   ports:
-  #     - "${POSTGRES_PORT}:5432"
-  #   restart: always
-  #   volumes:
-  #     - ./postgres-data:/var/lib/postgresql/data
-  #   networks:
-  #     - ipApp
 
-  # backend:
-  #   build:
-  #     context: "./backend"
-  #     dockerfile: Dockerfile
-  #   environment:
-  #     POSTGRES_USER: ${USER}
-  #     POSTGRES_PASSWORD: ${PASSWORD}
-  #     POSTGRES_DB: "db"
-  #     APPLICATION_DB: ${APPLICATION_DB}
-  #     POSTGRES_PORT: ${POSTGRES_PORT}
-  #   hostname: backend
-  #   ports:
-  #     - "5000:5000"
-  #   volumes:
-  #     - ./backend:/usr/src/backend
-  #   depends_on:
-  #     - db
-  #   tty: true
-  #   networks:
-  #     - ipApp
-
-  amharic:
+  api:
     build:
-      context: "./backend/AmharicAPI"
+      context: "./API"
       dockerfile: Dockerfile
     hostname: amharic
     ports:
       - "3001:3001"
     volumes:
-      - ./backend/AmharicAPI:/usr/src/amharic
+      - ./API:/usr/src/amharic
       - /usr/src/amharic/node_modules
     restart: unless-stopped
     networks:
-      - ipApp
+      - learnAmharic
 
-  frontend:
+  client:
     build:
-      context: "./frontend"
+      context: "./client"
       dockerfile: Dockerfile
     ports:
       - 80:80
     environment:
       BACKEND_BUILD_TIME_URL: amharic
     volumes:
-      - ./frontend:/usr/src/frontend
+      - ./client:/usr/src/frontend
       # - /etc/localtime:/etc/localtime:ro
       # - /var/run/docker.sock:/var/run/docker.sock:ro
     # labels:
@@ -105,12 +71,12 @@ services:
     #   - "traefik.docker.network=ipApp"
     #   - "traefik.port=80"
     depends_on:
-      - amharic
+      - api
     networks:
-      - ipApp
+      - learnAmharic
 
 networks:
-  ipApp:
+  learnAmharic:
     driver: bridge
     external: true
 #  docker-compose up --build -d

@@ -10,9 +10,9 @@ import {
   Input,
   Col,
 } from "reactstrap";
-import { addWord } from "../actions/utility/dbActions";
+import { addWord } from "../../actions/utility/dbActions";
 
-const WordModal = () => {
+const AddWordModal = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const [english, setEnglish] = useState("");
@@ -51,7 +51,9 @@ const WordModal = () => {
   return (
     <div>
       <div className="languageButton">
-        <Button onClick={toggleModal}>+</Button>
+        <Button color="primary" onClick={toggleModal}>
+          Add Word
+        </Button>
       </div>
       <Modal
         contentClassName="languageModal"
@@ -119,6 +121,12 @@ const WordModal = () => {
                   <option value="adjective" key="adjective">
                     Adjective
                   </option>
+                  <option value="slang" key="slang">
+                    Slang
+                  </option>
+                  <option value="other" key="other">
+                    Other/Unknown
+                  </option>
                 </Input>
               </FormGroup>
             </Col>
@@ -132,4 +140,4 @@ const WordModal = () => {
   );
 };
 
-export default WordModal;
+export default AddWordModal;
