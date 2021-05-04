@@ -87,23 +87,34 @@
   grid-gap: 1em;
   grid-template-columns: repeat(3, 1fr);
 }
-.cell {
-  /* align-items: right; */
-  /* flex: 0 0 32%; */
-  /* height: 28vh;
-  width: 28vw; */
-  /* margin: 1em 1em; */
-}
+
+/* .cell {
+  align-items: right;
+  flex: 0 0 32%;
+  height: 28vh;
+  width: 28vw;
+  margin: 1em 1em;
+} */
 
 .languageTable {
   margin-top: 1em;
 }
 
-.languageTitle {
+.wordTitle {
   margin-top: 1em;
   text-align: center;
 }
 
+.fidelTitle {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.fidelTitle:hover {
+  color: #007bff;
+  cursor: pointer;
+
+}
 .languageActions {
   position: flex;
   align-items: center;
@@ -123,6 +134,19 @@
 /* .languageModal {
   width: 70vw !important;
 } */
+
+.fidel-sentence {
+  position: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1em;
+  text-align: center;
+}
+
+.fidel-character:hover {
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
 
 .tableAction {
   cursor: pointer;
