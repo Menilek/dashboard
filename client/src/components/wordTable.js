@@ -156,7 +156,7 @@ const LanguageTable = () => {
   } else {
     return (
       <div>
-        <h1 className="languageTitle">አማርኛ መማር</h1>
+        <h1 className="wordTitle">አማርኛ መማር</h1>
         <Row className="languageActions">
           <div>
             <div className="languageButton">
