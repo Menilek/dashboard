@@ -7,18 +7,24 @@ function NavBar() {
     {
       path: "/ane",
       icon: "fas fa-home",
-      value: 'home'
+      value: "home",
     },
     {
       path: "/ane/dashboard",
       icon: "fas fa-wifi",
-      value: 'wifi'
+      value: "wifi",
     },
     {
       path: "/ane/learn-amharic",
       icon: "amharic-link",
-      value: 'amharic',
+      value: "amharic",
       text: "አማርኛ",
+    },
+    {
+      path: "/ane/amharic-fidel",
+      icon: "amharic-link",
+      value: "fidel",
+      text: "ፊደል",
     },
   ];
 
