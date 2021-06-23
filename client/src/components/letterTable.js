@@ -1,30 +1,97 @@
 import { React, useState, useEffect } from "react";
 import fidel from "./fidel.json";
-import { Table, Row } from "reactstrap";
+import { Col, Table, Row } from "reactstrap";
 import "../App.css";
+// import backspace from "../assets/icons/backspace-solid.svg";
+import plus from "../assets/icons/plus-solid.svg";
+import trash from "../assets/icons/trash-alt-solid.svg";
+// import copy from "../assets/icons/copy-solid.svg";
 
 const LetterTable = () => {
   const [word, setWord] = useState([]);
+  const [letter, setLetter] = useState([]);
 
   useEffect(() => {
     setWord("አማርኛ");
+    setLetter(fidel);
   }, []);
 
   const addCharacter = (e) => {
     let character = e.target.getAttribute("value");
     setWord((word) => [...word, character]);
-    // console.log(a);
+    // console.log("WORD = " + word);
+  };
+
+  // const deleteCharacter = (e) => {
+  //   let character = e.target.getAttribute("value");
+  //   setWord(word.filter((letter) => letter.value !== character));
+  //   console.log("CHARACTER = " + character);
+  // };
+
+  const addSpace = () => {
+    setWord((word) => [...word, " "]);
   };
 
   const clearWord = () => {
-    setWord("")
-  }
+    setWord("");
+  };
+
+  // const copyWord = () => {
+  //   let word = document.getElementById("test-word");
+  //   console.log(word);
+  //   word.select();
+  //   document.execCommand("copy");
+  // };
+
+  // const revealCharacter = (e) => {
+  //   let letter = e.target.getAttribute("type");
+  //   let character = e.target.getAttribute("value");
+  //   let englishCharacter = letter + character;
+  // };
 
   return (
     <div>
-      <h1 className="fidelTitle" onClick={clearWord}>ፊደል</h1>
+      <h1 className="fidelTitle" onClick={clearWord}>
+        ፊደል
+      </h1>
       <Row className="fidel-sentence">
-        <h3>{word}</h3>
+        <Col sm={9}>
+          <h3 className="fidel-word" id="test-word" value={word}>
+            {word}
+          </h3>
+        </Col>
+        <Col sm={1}>
+          <img
+            onClick={addSpace}
+            className="svg-inline--fa fa-plus fa-w-14 fidelAction"
+            src={plus}
+            alt="add keyboard symbol"
+          />
+        </Col>
+        <Col sm={1}>
+          <img
+            onClick={clearWord}
+            className="svg-inline--fa fa-trash-alt fa-w-14 fidelAction"
+            src={trash}
+            alt="trash symbol"
+          />
+        </Col>
+        {/* <Col sm={1}>
+          <img
+            onClick={copyWord}
+            className="svg-inline--fa fa-copy fa-w-14 fidelAction"
+            src={copy}
+            alt="copy symbol"
+          />
+        </Col> */}
+        {/* <Col sm={1}>
+          <img
+            onClick={deleteCharacter}
+            className="svg-inline--fa fa-backspace fa-w-20 fidelAction"
+            src={backspace}
+            alt="backspace keyboard symbol"
+          />
+        </Col> */}
       </Row>
       <Table>
         <thead>
@@ -40,57 +107,54 @@ const LetterTable = () => {
           </tr>
         </thead>
         <tbody>
-          {fidel.map((letter) => (
+          {letter.map((char) => (
             <tr>
-              <td>{letter.letter}</td>
+              <td>{char.letter}</td>
               <td
-                value={letter.ä}
+                // onMouseOver={revealCharacter}
+                value={char.ä}
                 onClick={addCharacter}
                 className="fidel-character"
               >
-                {letter.ä}
+                {char.ä}
+              </td>
+              <td onClick={addCharacter} className="fidel-character">
+                {char.u}
               </td>
               <td
-                value={letter.u}
+                value={char.i}
                 onClick={addCharacter}
                 className="fidel-character"
               >
-                {letter.u}
+                {char.i}
               </td>
               <td
-                value={letter.i}
+                value={char.a}
                 onClick={addCharacter}
                 className="fidel-character"
               >
-                {letter.i}
+                {char.a}
               </td>
               <td
-                value={letter.a}
+                value={char.ē}
                 onClick={addCharacter}
                 className="fidel-character"
               >
-                {letter.a}
+                {char.ē}
               </td>
               <td
-                value={letter.ē}
+                value={char.ə}
                 onClick={addCharacter}
                 className="fidel-character"
               >
-                {letter.ē}
+                {char.ə}
               </td>
               <td
-                value={letter.ə}
+                value={char.o}
                 onClick={addCharacter}
                 className="fidel-character"
               >
-                {letter.ə}
-              </td>
-              <td
-                value={letter.o}
-                onClick={addCharacter}
-                className="fidel-character"
-              >
-                {letter.o}
+                {char.o}
               </td>
             </tr>
           ))}
