@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Col } from "reactstrap";
 import "../App.css";
-import dashboard from "../img/dashboard.png";
-import cafesite from "../img/cafe-site.png";
-import p4p from "../img/p4p.png";
+import dashboard from "../assets/img/dashboard.png";
+import cafesite from "../assets/img/cafe-site.png";
+import p4p from "../assets/img/p4p.png";
 
 function Splash() {
   return (
