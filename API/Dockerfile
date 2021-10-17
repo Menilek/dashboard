@@ -1,4 +1,4 @@
-FROM node:15-alpine3.10 as build-stage
+FROM node:16-alpine3.11 as build-stage
 
 RUN mkdir -p /usr/src/amharic
 WORKDIR /usr/src/amharic
