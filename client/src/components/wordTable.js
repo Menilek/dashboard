@@ -15,6 +15,7 @@ import {
 // import CategoryDropdown from "./dropDown";
 import Loader from "./loader";
 import CategoryBadge from "./categoryBadge";
+import { categoryOptions } from "../util/CategoryOptions";
 import { getWords, deleteWord, addWord } from "../actions/utility/dbActions";
 
 const LanguageTable = () => {
@@ -30,6 +31,8 @@ const LanguageTable = () => {
   const [amharic, setAmharic] = useState("");
   const [geez, setGeez] = useState("");
   const [category, setCategory] = useState("Verb");
+  const [query, setQuery] = useState("");
+  const [searchParam] = useState(["english", "amharic", "geez"]);
 
   const toggleDeleteModal = (e) => {
     const deleteWord = e.target.getAttribute("value");
@@ -91,8 +94,21 @@ const LanguageTable = () => {
     }
   };
 
+  const search = items => {
+    return words.filter((word) => {
+      return searchParam.some((newWord) => {
+        return (
+          word[newWord]
+            .toString()
+            .toLowerCase()
+            .indexOf(query.toLowerCase()) > -1
+        );
+      });
+    });
+  }
+
   // const filterCategory = (e) => {
-  // all, verbs, adverbs, adjectives, slang
+  //   let category = e.target.getAttribute("value");
   // };
 
   useEffect(() => {
@@ -104,66 +120,34 @@ const LanguageTable = () => {
     }
   }, []);
 
-  const categoryOptions = [
-    {
-      category: "NOUN - a word that names something",
-      value: "Noun",
-      key: "noun",
-    },
-    {
-      category: "VERB - describes an action, state or occurrence",
-      value: "Verb",
-      key: "verb",
-    },
-    {
-      category:
-        "ADVERB - modifies/describes a verb/adjective/or another adverb",
-      value: "Adverb",
-      key: "adverb",
-    },
-    {
-      category: "ADJECTIVE - describes a noun",
-      value: "Adjective",
-      key: "adjective",
-    },
-    {
-      category:
-        "PREPOSITION - shows direction, time, place, location, spatial relationship",
-      value: "Preposition",
-      key: "preposition",
-    },
-    { category: "PHRASE", value: "Phrase", key: "phrase" },
-    {
-      category: "CONJUNCTION - connects words, phrases, clauses or sentences",
-      value: "Conjunction",
-      key: "conjunction",
-    },
-    {
-      category: "PRONOUN - takes the place of a noun e.g: he/they/hers",
-      value: "Pronoun",
-      key: "pronoun",
-    },
-    {
-      category: "SLANG - informal words/phrases",
-      value: "Slang",
-      key: "slang",
-    },
-    { category: "UNKNOWN", value: "Unknown", key: "unknown" },
-  ];
-
   if (loading) {
     return <Loader />;
   } else {
     return (
       <div>
         <h1 className="wordTitle">አማርኛ መማር</h1>
-        <Row className="languageActions">
+        <div className="languageActions">
           <div>
+            <input
+              type="search"
+              name="search-form"
+              className="search-query"
+              placeholder="Search for..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
             <div className="languageButton">
               <Button color="primary" onClick={toggleAddModal}>
                 Add Word
               </Button>
             </div>
+            {/* <div className="category-bar">
+              {categoryOptions.map((category) => (
+                <span className="category-filter" onClick={filterCategory} tabindex="-1">
+                  <CategoryBadge category={category.value} />
+                </span>
+              ))}
+            </div> */}
             <Modal
               contentClassName="languageModal"
               isOpen={addModalOpen}
@@ -332,7 +316,7 @@ const LanguageTable = () => {
           </Modal>
 
           {/* <CategoryDropdown /> */}
-        </Row>
+        </div>
 
         <div className="languageTable">
           <Table>
@@ -348,7 +332,7 @@ const LanguageTable = () => {
             </thead>
 
             <tbody>
-              {words?.map((word) => (
+              {search(words).map((word) => (
                 <tr key={word._id}>
                   <td>{word.english}</td>
                   <td>{word.amharic}</td>
