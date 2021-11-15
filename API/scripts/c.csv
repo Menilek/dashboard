@@ -1,1 +1,454 @@
 English,Amharic,Geez,Category
+Tired,Dehmognal,,Adjective
+To Arrive,Medres,,Verb
+To Show,Matayet,,Verb
+To Cross,Meshager,,Verb
+To Feel Sad,Mazen,,Verb
+To Be Closed,Mezegat,,Verb
+To Get Up,Menqat,,Verb
+To Go Down,Mewttet,,Verb
+To Go Up,Mewred,,Verb
+To Leave,Metew,,Verb
+To Sleep,Metegnat,,Verb
+To Stay,Meqoyet,,Verb
+To Visit,Megobgnet,,Verb
+To Defeat,Mashenef,,Verb
+To Prepare,Mazegajet,,Verb
+To Make,Mesrat,,Verb
+To Smell,Mashtet,,Verb
+To Study,Mattnat,,Verb
+To Lose,Melalat,,Verb
+To exchange,Meqeyayer,,Verb
+To Massage,Metashet,,Verb
+To Be Wrong,Mesasat,,Verb
+Far,Eruq,,Adverb
+All The Time,Hulgize,,Phrase
+Cheating,Kureja,,Verb
+Cold,Qezqaza,,Adjective
+Vegetable,Atklt,,Noun
+Soup,Shorba,,Noun
+Egg,Enqulal,,Noun
+Breakfast,Qurs,,Noun
+Lunch,Misa,,Noun
+Snack (Before Dinner),Mekses,,Noun
+Dinner,Erat,,Noun
+Sweat,Lab,,Noun
+Alone,Bchayen,,Adjective
+Stairs,Deraja,,Noun
+Brain,Aemro,,Noun
+Lie,Wshet,,Verb
+Other/Another,Lela,,Adjective
+Bald,Melatta,,Adjective
+Window,Mesqot,,Noun
+Important,Tteqami,,Adjective
+Line,Mesmer,,Noun
+Left,Gra,,Noun
+Right,Qegn,,Noun
+Light,Mebrat,,Noun
+No Problem,Chigir Yelewm,,Phrase
+Straight,Qett,,Noun
+Then,Keza,,Adverb
+I'm Sorry,Aznalehu,,Phrase
+Direction,Aqttacha,,Noun
+To Eat,Meblat,,Verb
+I Ate,Belahu,,Verb
+He Ate,Bela,,Verb
+She Ate,Belach,,Verb
+You Ate(m),Belah,,Verb
+You Ate(f),Belash,,Verb
+We Ate,Belan,,Verb
+You Ate(plural),Belachihu,,Verb
+They Ate,Belu,,Verb
+You Ate(respectful),Belu,,Verb
+To Drink,Mettetat,,Verb
+I Drank,Ttettahu,,Verb
+He Drank,Ttetta,,Verb
+She Drank,Ttettach,,Verb
+You Drank(m),Ttettah,,Verb
+You Drank(f),Ttettash,,Verb
+We Drank,Ttettan,,Verb
+You Drank(plural),Ttettachihu,,Verb
+They Drank,Ttettu,,Verb
+You Drank(respectful),Ttettu,,Verb
+To Play,Mecchawet,,Verb
+I Played,Techawetku,,Verb
+He Played,Techawete,,Verb
+She Played,Techawetech,,Verb
+You Played(m),Techawetk,,Verb
+You Played(f),Techawetish,,Verb
+We Played,Techawetin,,Verb
+You Played(plural),Techawetachihu,,Verb
+They Played,Techawetu,,Verb
+You Played(respectful),Techawetu,,Verb
+To Learn,Memar,,Verb
+I Learned,Temarku,,Verb
+He Learned,Temare,,Verb
+She Learned,Temarech,,Verb
+You Learned(m),Temark,,Verb
+You Learned(f),Temarish,,Verb
+We Learned,Temarin,,Verb
+You Learned(plural),Temarachihu,,Verb
+They Learned,Temaru,,Verb
+You Learned(respectful),Temaru,,Verb
+To Wear,Melbes,,Verb
+I Wore,Lebesku,,Verb
+He Wore,Lebese,,Verb
+She Wore,Lebesech,,Verb
+You Wore(m),Lebesk,,Verb
+You Wore(f),Lebesish,,Verb
+We Wore,Lebesin,,Verb
+You Wore(plural),Lebesachihu,,Verb
+They Wore,Lebesu,,Verb
+You Wore(respectful),Lebesu,,Verb
+To Change,Meqeyer,,Verb
+I Changed,Qeyerku,,Verb
+He Changed,Qeyere,,Verb
+She Changed,Qeyerech,,Verb
+You Changed(m),Qeyerek,,Verb
+You Changed(f),Qeyerish,,Verb
+We Changed,Qeyerin,,Verb
+You Changed(plural),Qeyerachihu,,Verb
+They Changed,Qeyeru,,Verb
+You Changed(respectful),Qeyeru,,Verb
+To Run,Merott,,Verb
+I Ran,Rottku,,Verb
+He Ran,Rotte,,Verb
+She Ran,Rottech,,Verb
+You Ran(m),Rottk,,Verb
+You Ran(f),Rottish,,Verb
+We Ran,Rottn,,Verb
+You Ran(plural),Rottachihu,,Verb
+They Ran,Rottu,,Verb
+You Ran(respectful),Rottu,,Verb
+To Sit,Meqemett,,Verb
+I Sat,Teqemettku,,Verb
+He Sat,Teqmette,,Verb
+She Sat,Teqemettech,,Verb
+You Sat(m),Teqemettk,,Verb
+You Sat(f),Teqemettish,,Verb
+We Sat,Teqemettin,,Verb
+You Sat(plural),Teqemettachihu,,Verb
+They Sat,Teqemettu,,Verb
+You Sat(respectful),Teqemettu,,Verb
+To Stand,Menesat,,Verb
+I Stood,Tenesahu,,Verb
+He Stood,Tenesa,,Verb
+She Stood,Tenesach,,Verb
+You Stood(m),Tenesah,,Verb
+You Stood(f),Tenesash,,Verb
+We Stood,Tenesan,,Verb
+You Stood(plural),Tenesachihu,,Verb
+They Stood,Tenesu,,Verb
+You Stood(respectful),Tenesu,,Verb
+To Sleep,Metegnat,,Verb
+I Slept,Tegnahu,,Verb
+He Slept,Tegna,,Verb
+She Slept,Tegnach,,Verb
+You Slept(m),Tegnah,,Verb
+You Slept(f),Tegnash,,Verb
+We Slept,Tegnan,,Verb
+You Slept(plural),Tegnachihu,,Verb
+They Slept,Tegnu,,Verb
+You Slept(respectful),Tegnu,,Verb
+To Wake,Menqat,,Verb
+I Woke,Neqahu,,Verb
+He Woke,Neqa,,Verb
+She Woke,Neqach,,Verb
+You Woke(m),Neqah,,Verb
+You Woke(f),Neqash,,Verb
+We Woke,Neqan,,Verb
+You Woke(plural),Neqachihu,,Verb
+They Woke,Nequ,,Verb
+You Woke(respectful),Nequ,,Verb
+To Talk,Menager,,Verb
+I Talked,Tenagerku,,Verb
+He Talked,Tenagere,,Verb
+She Talked,Tenagerech,,Verb
+You Talked(m),Tenagerk,,Verb
+You Talked(f),Tenagersh,,Verb
+We Talked,Tenagern,,Verb
+You Talked(plural),Tenagerachihu,,Verb
+They Talked,Tenageru,,Verb
+You Talked(respectful),Tenageru,,Verb
+To Speak,Mawrat,,Verb
+I Spoke,Awerahu,,Verb
+He Spoke,Awera,,Verb
+She Spoke,Awerach,,Verb
+You Spoke(m),Awerah,,Verb
+You Spoke(f),Awerash,,Verb
+We Spoke,Aweran,,Verb
+You Spoke(plural),Awerachihu,,Verb
+They Spoke,Aweru,,Verb
+You Spoke(respectful),Aweru,,Verb
+To Cook,Mabsel,,Verb
+I Cooked,Abeselku,,Verb
+He Cooked,Abesele,,Verb
+She Cooked,Abeselech,,Verb
+You Cooked(m),Abeselk,,Verb
+You Cooked(f),Abeselsh,,Verb
+We Cooked,Abeseln,,Verb
+You Cooked(plural),Abeselachihu,,Verb
+They Cooked,Abeselu,,Verb
+You Cooked(plural),Abeselu,,Verb
+Cold,Berd,,Noun
+Heaven,Genet,,Noun
+Hell,Siol,,Noun
+Story,Teret,,Noun
+Fire,Esat,,Noun
+Water,Wuha,,Noun
+Time,Gize,,Noun
+Hole,Gudguad,,Noun
+Face,Fit,,Noun
+Grass,Sar,,Noun
+Ox,Bere,,Noun
+Common,Yegerachew,,Adjective
+Big,Ttlq,,Adjective
+Stop,Tew,,Verb
+Dear,Hoy,,Adjective
+Chair,Wenber,,Noun
+On,Lay,,Preposition
+Appropriate,Tegebi,,Adjective
+Class,Kifle,,Noun
+Age,Edme,,Noun
+Sugar,Suqar,,Noun
+Necklace,Hable,,Noun
+New,Adisu,,Adjective
+Fan,Adaqi,,Adjective
+Me,Enem,,Pronoun
+Neck,Anget,,Noun
+Hand,Ej,,Noun
+Meat,Sga,,Noun
+Glass,Brchiqo,,Noun
+Paper,Wereqet,,Noun
+Mirror,Mestawt,,Noun
+Sandpaper,Brchiqowereqet,,Noun
+It is identical,Any aynet new,,Phrase
+It is similar,Temesasay new,,Phrase
+It is not similar,Temesasay ayidelum,,Phrase
+Any how,Lemangnawm,,Phrase
+Matter,Neger,,Noun
+Repeat it one more time,Ande dgemilgn,,Phrase
+I didn't hear you,Alsemehushm,,Phrase
+I couldn't hear you,Lsemash alchelkum,,Phrase
+Please slow down (f),Ebaksh qes blesh tenager,,Phrase
+Please speak quietly (f),Ebaksh dentshn qens,,Phrase
+Be quiet,Tsett bey,,Phrase
+Powerful/Heavy,Haylegna,,Adjective
+Rain,Zenab,,Noun
+Horn,Qend,,Noun
+Happiness,Desta,,Adjective
+I feel happy,Des alegn,,Phrase
+I am feeling happy,Des biognal,,Phrase
+They felt happy,Des alachew,,Phrase
+To hide,Medebeq,,Verb
+Hide and seek,Dbibqosh,,Noun
+I am happy we are happy,Enkuan abro des alen,,Phrase
+Question,Tyaqe,,Noun
+Coach,Asaltagnen,,Noun
+Meet,Aganew,,Noun
+I woke up,Ke enkilfe tenesaw,,Phrase
+Sleep,Enkilfe,,Noun
+Get up,Tenesaw,,Phrase
+I like it too,Enem wedalew,,Phrase
+Not good,Tirayidelum,,Phrase
+Bad,Metfo,,Adjective
+Let's continue,Eniketil,,Phrase
+Let's stop,Enakum,,Phrase
+Phone,Silq,,Noun
+I go back to work,Wede siraye temelesku,,Phrase
+Shop,Suq,,Noun
+Lesson,Timurt,,Noun
+Other,Lela,,Adjective
+Person,Sew,,Noun
+That,Yeza,,Conjunction
+It is theirs,Nachew,,Phrase
+I live,Yeminorew,,Phrase
+I do my work from home,Sirayen ke bet eseralew,,Phrase
+I live in a new house,Adis bet wuste new yeminorew,,Phrase
+It is that person's cats,Dimetochu yeza sew nachew,,Phrase
+Tasty,Yittafttal,,Adjective
+Funny,Asaqign,,Adjective
+What I want,Yefelekut,,Phrase
+What does it mean?,Mn malet new?,,Phrase
+What does it mean in Amharic?,Beamarigna mn malet new?,,Phrase
+To mean,Lemalet,,Verb
+Only,Bcha,,Adverb
+During the day,Beqenu,,Phrase
+Come (f),Ney,,Verb
+Come (m),Na,,Verb
+Come (respectful),Nu,,Verb
+Come for me (f),Neylgn,,Phrase
+Come for me (m),Nalgn,,Phrase
+Come for me (respectful),Nulgn,,Phrase
+To be absent,Meqret,,Verb
+To love,Mafker,,Verb
+Ever,Mechen,,Adverb
+Before,Befit,,Preposition
+Heart,Lib,,Noun
+Bag,Borsa,,Noun
+Grape,Weyn,,Noun
+Choice,Mrcha,,Noun
+Because you are,Slehonsh,,Phrase
+I see you,Baysh,,Phrase
+Until,Eske,,Preposition
+Forever,Zelalam,,Adverb
+Prize,Shlmate,,Noun
+Above,Balay,,Preposition
+In the name of,Besme,,Phrase
+To laugh,Mesaq,,Verb
+Laugh,Saqi,,Verb
+To have fun,Techawechi,,Phrase
+What will they say?,Endaylu?,,Phrase
+They say,Aylu,,Phrase
+Good luck,Melkam Edl,,Phrase
+Lucky,Edlegna,,Adjective
+I am joking,Eyeqeledku new,,Phrase
+Blazing,Nebelbal,,Adjective
+Have fun (m),Feta bel,,Phrase
+Have fun (f),Feta bey,,Phrase
+To be shy,Mafer,,Verb
+To like,Mewded,,Verb
+To die,Memot,,Verb
+I love you (m),Afeqrhalehu,,Phrase
+I love you (f),Afeqrshalehu,,Phrase
+To let go/leave,Melqeq,,Verb
+It is beautiful,Syamr,,Adjective
+I lie,Washew,,Phrase
+Did I lie?,Washew wey?,,Phrase
+Mouth,Af,,Noun
+The night,Mshtu,,Noun
+With/from,Ke ... gar,,Preposition
+For,Le,,Preposition
+Alphabet,Fidel,,Noun
+Ring,Qelebet,,Noun
+Glasses,Menetsr,,Noun
+It is difficult,Yikebdal,,Adjective
+To boil,Maflat,,Verb
+Song,Zefen,,Noun
+Singer,Zefagn,,Noun
+Lawyer,Ttebeqa,,Noun
+Stop,Qum,,Noun
+Ginger,Zinjibil,,Noun
+Ginger tea,Qeshr,,Noun
+To catch,Meyaz,,Noun
+What happened?,Mn tefettere?,,Phrase
+To enjoy,Mattattam,,Verb
+To thank,Mamesgen,,Verb
+Lord,Geta,,Noun
+It is getting worse,Bsobhal,,Phrase
+What I said,Yalkush,,Phrase
+For this,Lezi,,Preposition
+Next,Qettlo,,Adverb
+Idea,Hasab,,Noun
+What are you thinking?,Mn eyasable new?,,Phrase
+Everything will be fine in time,Atasab hulum begizew yhonal,,Phrase
+Everything has it's own time,Lehulum gize deer,,Phrase
+Worry,Chinqet,,Verb
+Enough,Beqa,,Adverb
+Leave it,Tey,,Phrase
+Our Creator,Amlak,,Noun
+To worship,Mamlek,,Verb
+Might,Msht,,Verb
+Queen,Nigist,,Noun
+King,Negus,,Noun
+Green,Arenguade,አረንጓዴ,Noun
+Yellow,Bicha,ቢጫ,Noun
+Red,Qey,ቀይ,Noun
+Blue,Semayawi,ሰማያዊ,Noun
+Black,Tikur,ጥቁር,Noun
+White,Nech,ነጭ,Noun
+Golden,Werqama,ወርቃማ,Noun
+Purple,Hamrawi,ሐምራዊ,Noun
+Orange,Bertukan,ብርቱካን,Noun
+Baby Blue,Wuhama,ውሃማ,Noun
+Gray,Giracha,ግራጫ,Noun
+Brown,Buni,ቡኒ,Noun
+Pink,Rose,ሮዝ,Noun
+Banana,Muz,,Noun
+Flower,Abeba,,Noun
+Rose,Tsgereda,,Noun
+Pink,Rose,,Noun
+fruit,Frafre,,Noun
+Tea,Shay,,Noun
+Soda/ soft drink,Leslasa/ yeleslasa mettet,,Noun
+Alcoholic Drink,Mettett,,Noun
+Strawberry,Enjori,,Noun
+Lemon,Lomi,,Noun
+Pineapple,Ananas,,Noun
+Drink,Mettetat,,Verb
+Wear,Melbes,,Verb
+Wake,Menqat,,Verb
+Cook,Mabsel,,Verb
+Give,Mestet,,Verb
+Receive,Meqebel,,Verb
+Jump,Mezlel,,Verb
+Come,Memtatt,,Verb
+Taste,Meqmes,,Verb
+Laugh,Mesaq,,Verb
+Count,Mequtter,,Verb
+Cry,Malqes,,Verb
+I,Ene,,Noun
+You (to men),Ante,,Noun
+You (to women),Anchi,,Noun
+You (to an elder),Erisos,,Noun
+He,Esu,,Noun
+She,Esua,,Noun
+We,Egna,,Noun
+Go,Mehed,መሄድ,Verb
+Have,Meyaz,መያዝ,Verb
+Hear,Madamet,ማዳመጥ,Verb
+Hurt,Megudat,መጉዳት,Verb
+Know,Maweq,ማወቅ,Verb
+Learn,Memar,መማር,Verb
+Leave,Metew,መተው,Verb
+Listen,Mesmat,መስማት,Verb
+Live,Menor,መኖር,Verb
+Look,Mayet,ማየት,Verb
+Lose,Matfat,ማጥፋት,Verb
+Make,Mesrat,መስራት,Verb
+Need,Mefeleg,መፈለግ,Verb
+Open,Mekfet,መክፈት,Verb
+Close,Mezgat,መዝጋት,Verb
+Organize,Maderajet,ማጀራጀት,Verb
+Pay,Mekfel,መክፈል,Verb
+Play,Mechawet,መጫወት,Verb
+Put,Maskemet,ማስቀመጥ,Verb
+Rain,Mezneb,መዝነብ,Verb
+Read,Manbeb,ማንበብ,Verb
+Reply,Memeles,መመለስ,Verb
+Run,Merott,መሮጥ,Verb
+Say,Malet,ማለት,Verb
+See,Mayet,ማየት,Verb
+Sell,Meshet,መሸጥ,Verb
+Send,Melak,መላክ,Verb
+Sign,Meferem,መፈረም,Verb
+Sing,Mezemer,መዘመር,Verb
+Sit,Mekemet,መቀመጥ,Verb
+Sleep,meteNat,መተኛት,Verb
+Smoke,Maches,ማጨስ,Verb
+Speak,Menager,መናገር,Verb
+Spend,Mawtat,ማውጣት,Verb
+Stand,Maqom,መቆም,Verb
+Start/Begin,Mejemer,መጀመር,Verb
+Study,Mattinat,ማጥናት,Verb
+Succeed,Mesakat,መሳካት,Verb
+Swim,Mewagnet,መዋኘት,Verb
+Take,Mewsed,መውሰድ,Verb
+Talk,Mawrat,ማውራት,Verb
+Teach,Mastemar,ማስተማር,Verb
+Tell,Menger,መንገር,Verb
+Think,Maseb,ማሰብ,Verb
+Translate,Metergom,መተርጎም,Verb
+Travel,Meguaz,መጉዋዝ,Verb
+Try,Memoker,መሞከር,Verb
+Turn Off,Matfat,ማጥፋት,Verb
+Turn On,Mabrat,ማብራት,Verb
+Understand,Meredat,መረዳት,Verb
+Use,Metekem,መጠቀም,Verb
+Wait,Metebeq,መጠበቅ,Verb
+Wake Up,Menqat,መንቃት,Verb
+Want,MemeNet,መመኘት,Verb
+Watch,Mayet,ማየት,Verb
+Work,Mesrat,መስራት,Verb
+Worry,Mechenek,መጨነቅ,Verb
+Write,Metsaf,መጻፍ,Verb

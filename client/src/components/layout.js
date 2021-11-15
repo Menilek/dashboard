@@ -1,6 +1,6 @@
-import React from "react";
-import NavBar from "./navbar";
-import "../App.css";
+import React from 'react';
+import NavBar from './navbar';
+import '../App.css';
 
 function Layout({ children }) {
   return (

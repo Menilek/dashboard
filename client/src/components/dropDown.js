@@ -1,10 +1,5 @@
-import { React, useState } from "react";
-import {
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-} from "reactstrap";
+import React, { useState } from 'react';
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 const CategoryDropdown = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -13,7 +8,7 @@ const CategoryDropdown = () => {
   const toggleDropdown = () => setDropdownOpen((prevState) => !prevState);
 
   const toggleOptionActive = (e) => {
-    const name = e.target.getAttribute("name");
+    const name = e.target.getAttribute('name');
     setOptionActive((prevState) => !prevState);
   };
 
@@ -24,39 +19,19 @@ const CategoryDropdown = () => {
           Category
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem
-            active={optionActive}
-            onClick={toggleOptionActive}
-            name="all"
-          >
+          <DropdownItem active={optionActive} onClick={toggleOptionActive} name="all">
             All
           </DropdownItem>
-          <DropdownItem
-            active={optionActive}
-            onClick={toggleOptionActive}
-            name="verbs"
-          >
+          <DropdownItem active={optionActive} onClick={toggleOptionActive} name="verbs">
             Verbs
           </DropdownItem>
-          <DropdownItem
-            active={optionActive}
-            onClick={toggleOptionActive}
-            name="adverbs"
-          >
+          <DropdownItem active={optionActive} onClick={toggleOptionActive} name="adverbs">
             Adverbs
           </DropdownItem>
-          <DropdownItem
-            active={optionActive}
-            onClick={toggleOptionActive}
-            name="adjectives"
-          >
+          <DropdownItem active={optionActive} onClick={toggleOptionActive} name="adjectives">
             Adjectives
           </DropdownItem>
-          <DropdownItem
-            active={optionActive}
-            onClick={toggleOptionActive}
-            name="slang"
-          >
+          <DropdownItem active={optionActive} onClick={toggleOptionActive} name="slang">
             Slang
           </DropdownItem>
         </DropdownMenu>

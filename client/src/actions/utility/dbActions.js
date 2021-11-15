@@ -1,7 +1,8 @@
-import axios from "axios";
+import axios from 'axios';
 
 // const endpoint = process.env.REACT_APP_BACKEND_URL;
-const endpoint = "0.0.0.0"; //FOR DEVELOPMENT
+const endpoint = '0.0.0.0';
+// const endpoint = 'localhost'; //FOR DEVELOPMENT
 
 export const getWords = async () => {
   try {
@@ -15,14 +16,14 @@ export const getWords = async () => {
 export const addWord = async (word) => {
   try {
     await axios({
-      method: "post",
+      method: 'post',
       url: `http://${endpoint}:3001/api/words`,
       data: {
         amharic: word.amharic,
         geez: word.geez,
         english: word.english,
-        category: word.category,
-      },
+        category: word.category
+      }
     });
   } catch (err) {
     console.error(err);

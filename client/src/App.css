@@ -4,8 +4,8 @@
   height: 100vh;
   /* overflow: hidden; */
   grid-template-areas:
-    "header header"
-    "main main";
+    'header header'
+    'main main';
   grid-template-rows: 60px auto;
   grid-template-columns: 4rem auto;
 }
@@ -148,6 +148,14 @@
   text-align: center;
 }
 
+#fave-btn {
+  margin-left: 1em;
+}
+
+#empty-favourites {
+  font-weight: bold;
+}
+
 .deleteButtons {
   position: flex;
   align-items: center;
@@ -226,7 +234,7 @@
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;

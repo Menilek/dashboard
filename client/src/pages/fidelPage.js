@@ -1,6 +1,6 @@
-import React from "react";
-import LetterTable from "../components/letterTable";
-import Layout from "../components/layout";
+import React from 'react';
+import LetterTable from '../components/letterTable';
+import Layout from '../components/layout';
 
 function FidelPage() {
   return (

@@ -1,10 +1,10 @@
-import { React, useState, useEffect } from "react";
-import fidel from "./fidel.json";
-import { Col, Table, Row } from "reactstrap";
-import "../App.css";
+import React, { useState, useEffect } from 'react';
+import fidel from './fidel.json';
+import { Col, Table, Row } from 'reactstrap';
+import '../App.css';
 // import backspace from "../assets/icons/backspace-solid.svg";
-import plus from "../assets/icons/plus-solid.svg";
-import trash from "../assets/icons/trash-alt-solid.svg";
+import plus from '../assets/icons/plus-solid.svg';
+import trash from '../assets/icons/trash-alt-solid.svg';
 // import copy from "../assets/icons/copy-solid.svg";
 
 const LetterTable = () => {
@@ -12,12 +12,12 @@ const LetterTable = () => {
   const [letter, setLetter] = useState([]);
 
   useEffect(() => {
-    setWord("አማርኛ");
+    setWord('አማርኛ');
     setLetter(fidel);
   }, []);
 
   const addCharacter = (e) => {
-    let character = e.target.getAttribute("value");
+    let character = e.target.getAttribute('value');
     setWord((word) => [...word, character]);
     // console.log("WORD = " + word);
   };
@@ -29,11 +29,11 @@ const LetterTable = () => {
   // };
 
   const addSpace = () => {
-    setWord((word) => [...word, " "]);
+    setWord((word) => [...word, ' ']);
   };
 
   const clearWord = () => {
-    setWord("");
+    setWord('');
   };
 
   // const copyWord = () => {
@@ -108,52 +108,31 @@ const LetterTable = () => {
         </thead>
         <tbody>
           {letter.map((char) => (
-            <tr>
+            <tr key={char.letter}>
               <td>{char.letter}</td>
               <td
                 // onMouseOver={revealCharacter}
                 value={char.ä}
                 onClick={addCharacter}
-                className="fidel-character"
-              >
+                className="fidel-character">
                 {char.ä}
               </td>
               <td onClick={addCharacter} className="fidel-character">
                 {char.u}
               </td>
-              <td
-                value={char.i}
-                onClick={addCharacter}
-                className="fidel-character"
-              >
+              <td value={char.i} onClick={addCharacter} className="fidel-character">
                 {char.i}
               </td>
-              <td
-                value={char.a}
-                onClick={addCharacter}
-                className="fidel-character"
-              >
+              <td value={char.a} onClick={addCharacter} className="fidel-character">
                 {char.a}
               </td>
-              <td
-                value={char.ē}
-                onClick={addCharacter}
-                className="fidel-character"
-              >
+              <td value={char.ē} onClick={addCharacter} className="fidel-character">
                 {char.ē}
               </td>
-              <td
-                value={char.ə}
-                onClick={addCharacter}
-                className="fidel-character"
-              >
+              <td value={char.ə} onClick={addCharacter} className="fidel-character">
                 {char.ə}
               </td>
-              <td
-                value={char.o}
-                onClick={addCharacter}
-                className="fidel-character"
-              >
+              <td value={char.o} onClick={addCharacter} className="fidel-character">
                 {char.o}
               </td>
             </tr>

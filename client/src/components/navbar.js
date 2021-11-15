@@ -1,31 +1,31 @@
-import React from "react";
-import { Navbar, NavLink } from "reactstrap";
-import "../App.css";
+import React from 'react';
+import { Navbar, NavLink } from 'reactstrap';
+import '../App.css';
 
 function NavBar() {
   const items = [
     {
-      path: "/ane",
-      icon: "fas fa-home",
-      value: "home",
+      path: '/ane',
+      icon: 'fas fa-home',
+      value: 'home'
     },
     {
-      path: "/ane/dashboard",
-      icon: "fas fa-wifi",
-      value: "wifi",
+      path: '/ane/dashboard',
+      icon: 'fas fa-wifi',
+      value: 'wifi'
     },
     {
-      path: "/ane/learn-amharic",
-      icon: "amharic-link",
-      value: "amharic",
-      text: "አማርኛ",
+      path: '/ane/learn-amharic',
+      icon: 'amharic-link',
+      value: 'amharic',
+      text: 'አማርኛ'
     },
     {
-      path: "/ane/amharic-fidel",
-      icon: "amharic-link",
-      value: "fidel",
-      text: "ፊደል",
-    },
+      path: '/ane/amharic-fidel',
+      icon: 'amharic-link',
+      value: 'fidel',
+      text: 'ፊደል'
+    }
   ];
 
   return (

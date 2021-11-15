@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Row, Col } from "reactstrap";
-import "../App.css";
-import dashboard from "../assets/img/dashboard.png";
-import cafesite from "../assets/img/cafe-site.png";
-import p4p from "../assets/img/p4p.png";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Row, Col } from 'reactstrap';
+import '../App.css';
+import dashboard from '../assets/img/dashboard.png';
+import cafesite from '../assets/img/cafe-site.png';
+import p4p from '../assets/img/p4p.png';
 
 function Splash() {
   return (
@@ -12,9 +12,7 @@ function Splash() {
       <div className="grid">
         <Row>
           <Col sm={12} md={12} lg={12}>
-            <h1 className="big-title floating">
-              &#123; menilek.tech/ane &#125;
-            </h1>
+            <h1 className="big-title floating">&#123; menilek.tech/ane &#125;</h1>
           </Col>
         </Row>
         <Row className="site-collection">
@@ -24,11 +22,7 @@ function Splash() {
                 <i className="fas fa-utensils"></i>
               </a>
               <a href="http://www.gillianscafe.co.uk/">
-                <img
-                  src={cafesite}
-                  className="site-thumb"
-                  alt="site thumbnail"
-                />
+                <img src={cafesite} className="site-thumb" alt="site thumbnail" />
               </a>
             </div>
           </Col>
@@ -38,11 +32,7 @@ function Splash() {
                 <i className="fab fa-github"></i>
               </a>
               <Link to="/ane/dashboard">
-                <img
-                  src={dashboard}
-                  className="site-thumb"
-                  alt="site thumbnail"
-                />
+                <img src={dashboard} className="site-thumb" alt="site thumbnail" />
               </Link>
             </div>
           </Col>

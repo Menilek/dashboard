@@ -1,18 +1,18 @@
-import { React } from "react";
-import { Badge } from "reactstrap";
+import { React } from 'react';
+import { Badge } from 'reactstrap';
 
 const CategoryBadge = (category) => {
   const wordCategories = {
-    Noun: "primary",
-    Verb: "secondary",
-    Adverb: "success",
-    Adjective: "primary",
-    Preposition: "warning",
-    Phrase: "dark",
-    Conjunction: "light",
-    Pronoun: "info",
-    Slang: "dark",
-    Unknown: "danger",
+    Noun: 'primary',
+    Verb: 'secondary',
+    Adverb: 'success',
+    Adjective: 'primary',
+    Preposition: 'warning',
+    Phrase: 'dark',
+    Conjunction: 'light',
+    Pronoun: 'info',
+    Slang: 'dark',
+    Unknown: 'danger'
   };
 
   const mapCategoryToColour = (category) => {

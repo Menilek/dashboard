@@ -1,14 +1,14 @@
-import { React, useState, useEffect } from "react";
-import { getIPData } from "../actions/utility/ipActions";
+import React, { useState, useEffect } from 'react';
+import { getIPData } from '../actions/utility/ipActions';
 // import { postToDB, getDBEntries } from "../actions/utility/dbActions";
-import Loader from "./loader";
+import Loader from './loader';
 
 const IpDashboard = () => {
   const [loading, setLoading] = useState(true);
-  const [city, setCity] = useState("");
-  const [isp, setISP] = useState("");
-  const [ip, setIP] = useState("");
-  const [tz, setTZ] = useState("");
+  const [city, setCity] = useState('');
+  const [isp, setISP] = useState('');
+  const [ip, setIP] = useState('');
+  const [tz, setTZ] = useState('');
 
   async function fetchIPData() {
     let res = await getIPData();
