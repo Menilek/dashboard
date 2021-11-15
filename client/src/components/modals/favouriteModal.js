@@ -5,24 +5,24 @@ const FavouriteModal = (favourites) => {
   return (
     <Table>
       <thead>
-        <tr>
-          <th>English</th>
-          <th>āmarinya</th>
-        </tr>
-      </thead>
-      <tbody>
-        {favourites ? (
-          favourites.favourites.map((word) => (
-            <tr key={word.english}>
-              <td>{word.english}</td>
-              <td>{word.amharic}</td>
-            </tr>
-          ))
+        {!favourites.favourites.length ? (
+          <tr>
+            <td id="empty-favourites">No favourites have been added yet</td>
+          </tr>
         ) : (
           <tr>
-            <td id="empty-favourites">Your favourites will go here</td>
+            <th>English</th>
+            <th>āmarinya</th>
           </tr>
         )}
+      </thead>
+      <tbody>
+        {favourites.favourites.map((word) => (
+          <tr key={word.english}>
+            <td>{word.english}</td>
+            <td>{word.amharic}</td>
+          </tr>
+        ))}
       </tbody>
     </Table>
   );
