@@ -6,6 +6,12 @@
         "category": "Preposition"
     },
     {
+        "amharic": "Balay",
+        "geez": "",
+        "english": "Above",
+        "category": "Preposition"
+    },
+    {
         "amharic": "Bahulume Balaye",
         "geez": "",
         "english": "Above all",
@@ -42,6 +48,12 @@
         "category": "Preposition"
     },
     {
+        "amharic": "Edme",
+        "geez": "",
+        "english": "Age",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mettett",
         "geez": "",
         "english": "Alcoholic Drink",
@@ -66,6 +78,12 @@
         "category": "Adjective"
     },
     {
+        "amharic": "Fidel",
+        "geez": "",
+        "english": "Alphabet",
+        "category": "Noun"
+    },
+    {
         "amharic": "āmarinya",
         "geez": "አማርኛ",
         "english": "Amharic",
@@ -76,6 +94,18 @@
         "geez": "",
         "english": "Among",
         "category": "Preposition"
+    },
+    {
+        "amharic": "Lemangnawm",
+        "geez": "",
+        "english": "Any how",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Tegebi",
+        "geez": "",
+        "english": "Appropriate",
+        "category": "Adjective"
     },
     {
         "amharic": "Akaababbi",
@@ -93,6 +123,18 @@
         "amharic": "Wuhama",
         "geez": "ውሃማ",
         "english": "Baby Blue",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Metfo",
+        "geez": "",
+        "english": "Bad",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Borsa",
+        "geez": "",
+        "english": "Bag",
         "category": "Noun"
     },
     {
@@ -114,6 +156,24 @@
         "category": "Noun"
     },
     {
+        "amharic": "Tsett bey",
+        "geez": "",
+        "english": "Be quiet",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Slehonsh",
+        "geez": "",
+        "english": "Because you are",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Befit",
+        "geez": "",
+        "english": "Before",
+        "category": "Preposition"
+    },
+    {
         "amharic": "Mamen",
         "geez": "ማመን",
         "english": "Believe",
@@ -126,6 +186,12 @@
         "category": "Preposition"
     },
     {
+        "amharic": "Ttlq",
+        "geez": "",
+        "english": "Big",
+        "category": "Adjective"
+    },
+    {
         "amharic": "Hisab",
         "geez": "",
         "english": "Bill",
@@ -136,6 +202,12 @@
         "geez": "ጥቁር",
         "english": "Black",
         "category": "Noun"
+    },
+    {
+        "amharic": "Nebelbal",
+        "geez": "",
+        "english": "Blazing",
+        "category": "Adjective"
     },
     {
         "amharic": "Semayawi",
@@ -216,6 +288,12 @@
         "category": "Noun"
     },
     {
+        "amharic": "Wenber",
+        "geez": "",
+        "english": "Chair",
+        "category": "Noun"
+    },
+    {
         "amharic": "Melewet",
         "geez": "መለወጥ",
         "english": "Change",
@@ -228,10 +306,22 @@
         "category": "Verb"
     },
     {
+        "amharic": "Mrcha",
+        "geez": "",
+        "english": "Choice",
+        "category": "Noun"
+    },
+    {
         "amharic": "Ketefa",
         "geez": "",
         "english": "Chopping",
         "category": "Verb"
+    },
+    {
+        "amharic": "Kifle",
+        "geez": "",
+        "english": "Class",
+        "category": "Noun"
     },
     {
         "amharic": "Matsidat",
@@ -246,10 +336,22 @@
         "category": "Verb"
     },
     {
+        "amharic": "Asaltagnen",
+        "geez": "",
+        "english": "Coach",
+        "category": "Noun"
+    },
+    {
         "amharic": "Qezqaza",
         "geez": "",
         "english": "Cold",
         "category": "Adjective"
+    },
+    {
+        "amharic": "Berd",
+        "geez": "",
+        "english": "Cold",
+        "category": "Noun"
     },
     {
         "amharic": "Mabeter",
@@ -262,6 +364,48 @@
         "geez": "",
         "english": "Come",
         "category": "Verb"
+    },
+    {
+        "amharic": "Ney",
+        "geez": "",
+        "english": "Come (f)",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Na",
+        "geez": "",
+        "english": "Come (m)",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Nu",
+        "geez": "",
+        "english": "Come (respectful)",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Neylgn",
+        "geez": "",
+        "english": "Come for me (f)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Nalgn",
+        "geez": "",
+        "english": "Come for me (m)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Nulgn",
+        "geez": "",
+        "english": "Come for me (respectful)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Yegerachew",
+        "geez": "",
+        "english": "Common",
+        "category": "Adjective"
     },
     {
         "amharic": "Maguremrem",
@@ -312,6 +456,18 @@
         "category": "Verb"
     },
     {
+        "amharic": "Hoy",
+        "geez": "",
+        "english": "Dear",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Washew wey?",
+        "geez": "",
+        "english": "Did I lie?",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Erat",
         "geez": "",
         "english": "Dinner",
@@ -336,6 +492,12 @@
         "category": "Noun"
     },
     {
+        "geez": "",
+        "amharic": "wusha",
+        "english": "Dog",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mesal",
         "geez": "መሳል",
         "english": "Draw",
@@ -354,6 +516,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Beqenu",
+        "geez": "",
+        "english": "During the day",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Meblat",
         "geez": "መብላት",
         "english": "Eat",
@@ -366,10 +534,34 @@
         "category": "Noun"
     },
     {
+        "amharic": "Beqa",
+        "geez": "",
+        "english": "Enough",
+        "category": "Adverb"
+    },
+    {
         "amharic": "Mishit",
         "geez": "",
         "english": "Evening",
         "category": "Noun"
+    },
+    {
+        "amharic": "Mechen",
+        "geez": "",
+        "english": "Ever",
+        "category": "Adverb"
+    },
+    {
+        "amharic": "Lehulum gize deer",
+        "geez": "",
+        "english": "Everything has it's own time",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Atasab hulum begizew yhonal",
+        "geez": "",
+        "english": "Everything will be fine in time",
+        "category": "Phrase"
     },
     {
         "amharic": "Masredat",
@@ -378,10 +570,22 @@
         "category": "Verb"
     },
     {
+        "amharic": "Fit",
+        "geez": "",
+        "english": "Face",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mewdeq",
         "geez": "መውደቅ",
         "english": "Fall",
         "category": "Verb"
+    },
+    {
+        "amharic": "Adaqi",
+        "geez": "",
+        "english": "Fan",
+        "category": "Adjective"
     },
     {
         "amharic": "Eruq",
@@ -408,6 +612,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Esat",
+        "geez": "",
+        "english": "Fire",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mebqat",
         "geez": "መብቃት",
         "english": "Fit",
@@ -432,10 +642,28 @@
         "category": "Verb"
     },
     {
+        "amharic": "Le",
+        "geez": "",
+        "english": "For",
+        "category": "Preposition"
+    },
+    {
         "amharic": "Lezi",
         "geez": "",
         "english": "For this",
         "category": "Phrase"
+    },
+    {
+        "amharic": "Lezi",
+        "geez": "",
+        "english": "For this",
+        "category": "Preposition"
+    },
+    {
+        "amharic": "Zelalam",
+        "geez": "",
+        "english": "Forever",
+        "category": "Adverb"
     },
     {
         "amharic": "Mersat",
@@ -450,10 +678,52 @@
         "category": "Preposition"
     },
     {
+        "amharic": "Frafre",
+        "geez": "",
+        "english": "Fruit",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Asaqign",
+        "geez": "",
+        "english": "Funny",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Tenesaw",
+        "geez": "",
+        "english": "Get up",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Zinjibil",
+        "geez": "",
+        "english": "Ginger",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Qeshr",
+        "geez": "",
+        "english": "Ginger tea",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mesttet",
         "geez": "መስጠት",
         "english": "Give",
         "category": "Verb"
+    },
+    {
+        "amharic": "Brchiqo",
+        "geez": "",
+        "english": "Glass",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Menetsr",
+        "geez": "",
+        "english": "Glasses",
+        "category": "Noun"
     },
     {
         "amharic": "Mehed",
@@ -465,6 +735,24 @@
         "amharic": "Werqama",
         "geez": "ወርቃማ",
         "english": "Golden",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Melkam Edl",
+        "geez": "",
+        "english": "Good luck",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Weyn",
+        "geez": "",
+        "english": "Grape",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Sar",
+        "geez": "",
+        "english": "Grass",
         "category": "Noun"
     },
     {
@@ -486,6 +774,18 @@
         "category": "Noun"
     },
     {
+        "amharic": "Ej",
+        "geez": "",
+        "english": "Hand",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Desta",
+        "geez": "",
+        "english": "Happiness",
+        "category": "Adjective"
+    },
+    {
         "amharic": "Meyaz",
         "geez": "መያዝ",
         "english": "Have",
@@ -495,6 +795,18 @@
         "amharic": "Melkam menged",
         "geez": "",
         "english": "Have a safe journey",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Feta bey",
+        "geez": "",
+        "english": "Have fun (f)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Feta bel",
+        "geez": "",
+        "english": "Have fun (m)",
         "category": "Phrase"
     },
     {
@@ -598,6 +910,42 @@
         "geez": "ማዳመጥ",
         "english": "Hear",
         "category": "Verb"
+    },
+    {
+        "amharic": "Lib",
+        "geez": "",
+        "english": "Heart",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Genet",
+        "geez": "",
+        "english": "Heaven",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Siol",
+        "geez": "",
+        "english": "Hell",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Dbibqosh",
+        "geez": "",
+        "english": "Hide and seek",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Gudguad",
+        "geez": "",
+        "english": "Hole",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Qend",
+        "geez": "",
+        "english": "Horn",
+        "category": "Noun"
     },
     {
         "amharic": "Bet",
@@ -708,9 +1056,27 @@
         "category": "Verb"
     },
     {
+        "amharic": "Des biognal",
+        "geez": "",
+        "english": "I am feeling happy",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Enkuan abro des alen",
+        "geez": "",
+        "english": "I am happy we are happy",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Betwust negn",
         "geez": "",
         "english": "I am in the house",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Eyeqeledku new",
+        "geez": "",
+        "english": "I am joking",
         "category": "Phrase"
     },
     {
@@ -720,10 +1086,94 @@
         "category": "Phrase"
     },
     {
+        "amharic": "Lsemash alchelkum",
+        "geez": "",
+        "english": "I couldn't hear you",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Alsemehushm",
+        "geez": "",
+        "english": "I didn't hear you",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Sirayen ke bet eseralew",
+        "geez": "",
+        "english": "I do my work from home",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Des alegn",
+        "geez": "",
+        "english": "I feel happy",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Wede siraye temelesku",
+        "geez": "",
+        "english": "I go back to work",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Washew",
+        "geez": "",
+        "english": "I lie",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Enem wedalew",
+        "geez": "",
+        "english": "I like it too",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Yeminorew",
+        "geez": "",
+        "english": "I live",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Adis bet wuste new yeminorew",
+        "geez": "",
+        "english": "I live in a new house",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Afeqrshalehu",
+        "geez": "",
+        "english": "I love you (f)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Afeqrhalehu",
+        "geez": "",
+        "english": "I love you (m)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Baysh",
+        "geez": "",
+        "english": "I see you",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Ke enkilfe tenesaw",
+        "geez": "",
+        "english": "I woke up",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Aznalehu",
         "geez": "",
         "english": "I'm Sorry",
         "category": "Phrase"
+    },
+    {
+        "amharic": "Hasab",
+        "geez": "",
+        "english": "Idea",
+        "category": "Noun"
     },
     {
         "amharic": "Hasab",
@@ -750,9 +1200,63 @@
         "category": "Preposition"
     },
     {
+        "amharic": "Besme",
+        "geez": "",
+        "english": "In the name of",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Syamr",
+        "geez": "",
+        "english": "It is beautiful",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Yikebdal",
+        "geez": "",
+        "english": "It is difficult",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Bsobhal",
+        "geez": "",
+        "english": "It is getting worse",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Any aynet new",
+        "geez": "",
+        "english": "It is identical",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Tuhkukul aydelem",
         "geez": "",
         "english": "It is not correct",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Temesasay ayidelum",
+        "geez": "",
+        "english": "It is not similar",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Temesasay new",
+        "geez": "",
+        "english": "It is similar",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Dimetochu yeza sew nachew",
+        "geez": "",
+        "english": "It is that person's cats",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Nachew",
+        "geez": "",
+        "english": "It is theirs",
         "category": "Phrase"
     },
     {
@@ -792,6 +1296,12 @@
         "category": "Adverb"
     },
     {
+        "amharic": "Negus",
+        "geez": "",
+        "english": "King",
+        "category": "Noun"
+    },
+    {
         "amharic": "Maweq",
         "geez": "ማወቅ",
         "english": "Know",
@@ -802,6 +1312,18 @@
         "geez": "",
         "english": "Laugh",
         "category": "Verb"
+    },
+    {
+        "amharic": "Saqi",
+        "geez": "",
+        "english": "Laugh",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Ttebeqa",
+        "geez": "",
+        "english": "Lawyer",
+        "category": "Noun"
     },
     {
         "amharic": "Memar",
@@ -816,6 +1338,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Tey",
+        "geez": "",
+        "english": "Leave it",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Gra",
         "geez": "",
         "english": "Left",
@@ -826,6 +1354,24 @@
         "geez": "",
         "english": "Lemon",
         "category": "Noun"
+    },
+    {
+        "amharic": "Timurt",
+        "geez": "",
+        "english": "Lesson",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Eniketil",
+        "geez": "",
+        "english": "Let's continue",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Enakum",
+        "geez": "",
+        "english": "Let's stop",
+        "category": "Phrase"
     },
     {
         "amharic": "Wshet",
@@ -864,6 +1410,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Geta",
+        "geez": "",
+        "english": "Lord",
+        "category": "Noun"
+    },
+    {
         "amharic": "Matfat",
         "geez": "ማጥፋት",
         "english": "Lose",
@@ -874,6 +1426,12 @@
         "geez": "",
         "english": "Love",
         "category": "Noun"
+    },
+    {
+        "amharic": "Edlegna",
+        "geez": "",
+        "english": "Lucky",
+        "category": "Adjective"
     },
     {
         "amharic": "Misa",
@@ -888,9 +1446,51 @@
         "category": "Verb"
     },
     {
+        "amharic": "Neger",
+        "geez": "",
+        "english": "Matter",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Enem",
+        "geez": "",
+        "english": "Me",
+        "category": "Pronoun"
+    },
+    {
+        "amharic": "Sga",
+        "geez": "",
+        "english": "Meat",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Aganew",
+        "geez": "",
+        "english": "Meet",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Msht",
+        "geez": "",
+        "english": "Might",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mestawt",
+        "geez": "",
+        "english": "Mirror",
+        "category": "Noun"
+    },
+    {
         "amharic": "Enat",
         "geez": "",
         "english": "Mother",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Af",
+        "geez": "",
+        "english": "Mouth",
         "category": "Noun"
     },
     {
@@ -900,15 +1500,45 @@
         "category": "Adverb"
     },
     {
+        "amharic": "Anget",
+        "geez": "",
+        "english": "Neck",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Hable",
+        "geez": "",
+        "english": "Necklace",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mefeleg",
         "geez": "መፈለግ",
         "english": "Need",
         "category": "Verb"
     },
     {
+        "amharic": "Adisu",
+        "geez": "",
+        "english": "New",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Qettlo",
+        "geez": "",
+        "english": "Next",
+        "category": "Adverb"
+    },
+    {
         "amharic": "Chigir Yelewm",
         "geez": "",
         "english": "No Problem",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Tirayidelum",
+        "geez": "",
+        "english": "Not good",
         "category": "Phrase"
     },
     {
@@ -930,10 +1560,22 @@
         "category": "Noun"
     },
     {
+        "amharic": "Lay",
+        "geez": "",
+        "english": "On",
+        "category": "Preposition"
+    },
+    {
         "amharic": "Shinkhurt",
         "geez": "",
         "english": "Onion",
         "category": "Noun"
+    },
+    {
+        "amharic": "Bcha",
+        "geez": "",
+        "english": "Only",
+        "category": "Adverb"
     },
     {
         "amharic": "Mekfet",
@@ -956,14 +1598,50 @@
     {
         "amharic": "Lela",
         "geez": "",
+        "english": "Other",
+        "category": "Adjective"
+    },
+    {
+        "amharic": "Lela",
+        "geez": "",
         "english": "Other/Another",
         "category": "Adjective"
+    },
+    {
+        "amharic": "Amlak",
+        "geez": "",
+        "english": "Our Creator",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Bere",
+        "geez": "",
+        "english": "Ox",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Wereqet",
+        "geez": "",
+        "english": "Paper",
+        "category": "Noun"
     },
     {
         "amharic": "Mekfel",
         "geez": "መክፈል",
         "english": "Pay",
         "category": "Verb"
+    },
+    {
+        "amharic": "Sew",
+        "geez": "",
+        "english": "Person",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Silq",
+        "geez": "",
+        "english": "Phone",
+        "category": "Noun"
     },
     {
         "amharic": "Ananas",
@@ -990,10 +1668,34 @@
         "category": "Verb"
     },
     {
+        "amharic": "Ebaksh qes blesh tenager",
+        "geez": "",
+        "english": "Please slow down (f)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Ebaksh dentshn qens",
+        "geez": "",
+        "english": "Please speak quietly (f)",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Haylegna",
+        "geez": "",
+        "english": "Powerful/Heavy",
+        "category": "Adjective"
+    },
+    {
         "amharic": "Selot",
         "geez": "",
         "english": "Praying",
         "category": "Verb"
+    },
+    {
+        "amharic": "Shlmate",
+        "geez": "",
+        "english": "Prize",
+        "category": "Noun"
     },
     {
         "amharic": "Hamrawi",
@@ -1008,10 +1710,28 @@
         "category": "Verb"
     },
     {
+        "amharic": "Nigist",
+        "geez": "",
+        "english": "Queen",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Tyaqe",
+        "geez": "",
+        "english": "Question",
+        "category": "Noun"
+    },
+    {
         "amharic": "Mezneb",
         "geez": "መዝነብ",
         "english": "Rain",
         "category": "Verb"
+    },
+    {
+        "amharic": "Zenab",
+        "geez": "",
+        "english": "Rain",
+        "category": "Noun"
     },
     {
         "amharic": "Manbeb",
@@ -1032,6 +1752,12 @@
         "category": "Noun"
     },
     {
+        "amharic": "Ande dgemilgn",
+        "geez": "",
+        "english": "Repeat it one more time",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Memeles",
         "geez": "መመለስ",
         "english": "Reply",
@@ -1041,6 +1767,12 @@
         "amharic": "Qegn",
         "geez": "",
         "english": "Right",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Qelebet",
+        "geez": "",
+        "english": "Ring",
         "category": "Noun"
     },
     {
@@ -1060,6 +1792,12 @@
         "geez": "",
         "english": "Safe journey",
         "category": "Phrase"
+    },
+    {
+        "amharic": "Brchiqowereqet",
+        "geez": "",
+        "english": "Sandpaper",
+        "category": "Noun"
     },
     {
         "amharic": "Malet",
@@ -1182,6 +1920,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Suq",
+        "geez": "",
+        "english": "Shop",
+        "category": "Noun"
+    },
+    {
         "amharic": "Meferem",
         "geez": "መፈረም",
         "english": "Sign",
@@ -1192,6 +1936,12 @@
         "geez": "መዘመር",
         "english": "Sing",
         "category": "Verb"
+    },
+    {
+        "amharic": "Zefagn",
+        "geez": "",
+        "english": "Singer",
+        "category": "Noun"
     },
     {
         "amharic": "Ehet",
@@ -1218,6 +1968,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Enkilfe",
+        "geez": "",
+        "english": "Sleep",
+        "category": "Noun"
+    },
+    {
         "amharic": "Maches",
         "geez": "ማጨስ",
         "english": "Smoke",
@@ -1233,6 +1989,12 @@
         "amharic": "Leslasa/ yeleslasa mettet",
         "geez": "",
         "english": "Soda/ soft drink",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Zefen",
+        "geez": "",
+        "english": "Song",
         "category": "Noun"
     },
     {
@@ -1278,6 +2040,24 @@
         "category": "Verb"
     },
     {
+        "amharic": "Tew",
+        "geez": "",
+        "english": "Stop",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Qum",
+        "geez": "",
+        "english": "Stop",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Teret",
+        "geez": "",
+        "english": "Story",
+        "category": "Noun"
+    },
+    {
         "amharic": "Qett",
         "geez": "",
         "english": "Straight",
@@ -1300,6 +2080,12 @@
         "geez": "መሳካት",
         "english": "Succeed",
         "category": "Verb"
+    },
+    {
+        "amharic": "Suqar",
+        "geez": "",
+        "english": "Sugar",
+        "category": "Noun"
     },
     {
         "amharic": "Lab",
@@ -1332,6 +2118,12 @@
         "category": "Verb"
     },
     {
+        "amharic": "Yittafttal",
+        "geez": "",
+        "english": "Tasty",
+        "category": "Adjective"
+    },
+    {
         "amharic": "Shay",
         "geez": "",
         "english": "Tea",
@@ -1360,6 +2152,18 @@
         "geez": "",
         "english": "That",
         "category": "Pronoun"
+    },
+    {
+        "amharic": "Yeza",
+        "geez": "",
+        "english": "That",
+        "category": "Conjunction"
+    },
+    {
+        "amharic": "Mshtu",
+        "geez": "",
+        "english": "The night",
+        "category": "Noun"
     },
     {
         "amharic": "Keza",
@@ -1464,6 +2268,18 @@
         "category": "Verb"
     },
     {
+        "amharic": "Des alachew",
+        "geez": "",
+        "english": "They felt happy",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Aylu",
+        "geez": "",
+        "english": "They say",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Maseb",
         "geez": "ማሰብ",
         "english": "Think",
@@ -1486,6 +2302,12 @@
         "geez": "",
         "english": "Through",
         "category": "Preposition"
+    },
+    {
+        "amharic": "Gize",
+        "geez": "",
+        "english": "Time",
+        "category": "Noun"
     },
     {
         "amharic": "Dehmognal",
@@ -1698,9 +2520,75 @@
         "category": "Verb"
     },
     {
+        "amharic": "Meqret",
+        "geez": "",
+        "english": "To be absent",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mafer",
+        "geez": "",
+        "english": "To be shy",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Maflat",
+        "geez": "",
+        "english": "To boil",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Meyaz",
+        "geez": "",
+        "english": "To catch",
+        "category": "Noun"
+    },
+    {
+        "amharic": "Memot",
+        "geez": "",
+        "english": "To die",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mattattam",
+        "geez": "",
+        "english": "To enjoy",
+        "category": "Verb"
+    },
+    {
         "amharic": "Meqeyayer",
         "geez": "",
         "english": "To exchange",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Techawechi",
+        "geez": "",
+        "english": "To have fun",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Medebeq",
+        "geez": "",
+        "english": "To hide",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mesaq",
+        "geez": "",
+        "english": "To laugh",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Melqeq",
+        "geez": "",
+        "english": "To let go/leave",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mewded",
+        "geez": "",
+        "english": "To like",
         "category": "Verb"
     },
     {
@@ -1708,6 +2596,30 @@
         "geez": "",
         "english": "To live",
         "category": "Phrase"
+    },
+    {
+        "amharic": "Mafker",
+        "geez": "",
+        "english": "To love",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Lemalet",
+        "geez": "",
+        "english": "To mean",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mamesgen",
+        "geez": "",
+        "english": "To thank",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Mamlek",
+        "geez": "",
+        "english": "To worship",
+        "category": "Verb"
     },
     {
         "geez": "",
@@ -1788,6 +2700,12 @@
         "category": "Preposition "
     },
     {
+        "amharic": "Eske",
+        "geez": "",
+        "english": "Until",
+        "category": "Preposition"
+    },
+    {
         "amharic": "Metekem",
         "geez": "መጠቀም",
         "english": "Use",
@@ -1828,6 +2746,12 @@
         "geez": "ማየት",
         "english": "Watch",
         "category": "Verb"
+    },
+    {
+        "amharic": "Wuha",
+        "geez": "",
+        "english": "Water",
+        "category": "Noun"
     },
     {
         "amharic": "Egna",
@@ -1938,9 +2862,27 @@
         "category": "Pronoun"
     },
     {
+        "amharic": "Yalkush",
+        "geez": "",
+        "english": "What I said",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Yefelekut",
+        "geez": "",
+        "english": "What I want",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Mindnew mitiyo",
         "geez": "",
         "english": "What are you looking at?",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Mn eyasable new?",
+        "geez": "",
+        "english": "What are you thinking?",
         "category": "Phrase"
     },
     {
@@ -1950,9 +2892,33 @@
         "category": "Phrase"
     },
     {
+        "amharic": "Beamarigna mn malet new?",
+        "geez": "",
+        "english": "What does it mean in Amharic?",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Mn malet new?",
+        "geez": "",
+        "english": "What does it mean?",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Mn tefettere?",
+        "geez": "",
+        "english": "What happened?",
+        "category": "Phrase"
+    },
+    {
         "amharic": "Yih mindnew",
         "geez": "",
         "english": "What is this?",
+        "category": "Phrase"
+    },
+    {
+        "amharic": "Endaylu?",
+        "geez": "",
+        "english": "What will they say?",
         "category": "Phrase"
     },
     {
@@ -2016,6 +2982,12 @@
         "category": "Noun"
     },
     {
+        "amharic": "Ke ... gar",
+        "geez": "",
+        "english": "With/from",
+        "category": "Preposition"
+    },
+    {
         "amharic": "Kaala'esu",
         "geez": "",
         "english": "Without",
@@ -2030,6 +3002,12 @@
     {
         "amharic": "Mechenek",
         "geez": "መጨነቅ",
+        "english": "Worry",
+        "category": "Verb"
+    },
+    {
+        "amharic": "Chinqet",
+        "geez": "",
         "english": "Worry",
         "category": "Verb"
     },
@@ -2428,11 +3406,5 @@
         "geez": "",
         "english": "Young Girl (pet name)",
         "category": "Noun"
-    },
-    {
-        "amharic": "Frafre",
-        "geez": "",
-        "english": "Fruit",
-        "category": "Noun"
-    },
+    }
 ]
