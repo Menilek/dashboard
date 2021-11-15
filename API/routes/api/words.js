@@ -7,7 +7,7 @@ const router = express.Router();
 // desc Get all words excluding _id and __v from results
 // @access Public
 router.get("/", async (req, res) => {
-  Word.find({}, '-_id -__v')
+  Word.find({}, '-__v')
     .sort({ english: 1 })
     .then((words) => res.status(200).json(words));
 });

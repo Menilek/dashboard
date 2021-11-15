@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 const url = process.env.MONGODB_URI;
+// const url = 'mongodb://localhost:27017/words';
 
 mongoose
   .connect(url, {
