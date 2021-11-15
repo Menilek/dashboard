@@ -54,11 +54,32 @@ router.delete("/:id", (req, res) => {
 // TODO: add auth to endpoint
 router.patch("/:id", (req, res) => {
   try {
-    const updatedWord = req.body;
-    console.log(updatedWord);
-    const id = req.params.id;
-    // Word.update({ _id: ObjectId(id) }, { $set: updatedWord });
-    // newWord.save().then((word) => res.json(word));
+    const id = req.body._id;
+    const newWord = {};
+    newWord['english'] = req.body.english ? req.body.english : undefined;
+    newWord['amharic'] = req.body.amharic ? req.body.amharic : undefined;
+    newWord['geez'] = req.body.geez ? req.body.geez : undefined;
+    newWord['category'] = req.body.category ? req.body.category : undefined;
+    Object.keys(newWord).forEach((key) => newWord[key] === undefined && delete newWord[key]);
+    Word.findById(id)
+      .then((word) => {
+        if (newWord.english){
+          word.english = newWord.english;
+        }
+        if (newWord.amharic){
+          word.amharic = newWord.amharic;
+        }
+        if (newWord.geez){
+          word.geez = newWord.geez;
+        }
+        if (newWord.category){
+          word.category = newWord.category;
+        }
+        word.save((w) => res.json(w));
+      })
+      .catch((err) => {
+        console.log(err)
+      })
   } catch (err) {
     console.error(err);
   }

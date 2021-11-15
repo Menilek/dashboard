@@ -6,7 +6,7 @@ import Loader from './loader';
 import CategoryBadge from './categoryBadge';
 import FavouriteModal from './modals/favouriteModal';
 import AddWordModal from './modals/addWordModal';
-import { getWords, deleteWord, addWord } from '../actions/utility/dbActions';
+import { getWords, deleteWord, addWord, editWord } from '../actions/utility/dbActions';
 import EditWordModal from './modals/editWordModal';
 
 const LanguageTable = () => {
@@ -120,9 +120,7 @@ const LanguageTable = () => {
       word['category'] = category ? category : undefined;
       word['_id'] = modalID;
       Object.keys(word).forEach((key) => word[key] === undefined && delete word[key]);
-      // editWord(word);
-      // MAKE PATCH REQUEST
-      console.log('TO DO: IMPLEMENT EDIT FUNCTIONALITY');
+      editWord(word);
       toggleEditModal();
     } catch (err) {
       console.error(err);

@@ -39,18 +39,11 @@ export const deleteWord = async (id) => {
   }
 };
 
-// TODO: IMPLEMENT ME!
-// export const editWord = async (word) => {
-//   try {
-//     let data = Object.assign(
-//       {},
-//       word.english === null ? null : { english: word.english },
-//       word.amharic === null ? null : { amharic: word.amharic },
-//       word.geez === null ? null : { geez: word.geez }
-//     );
-//     let url = `http://${endpoint}:3001/api/words/${word.id}`;
-//     await axios.patch(url);
-//   } catch (err) {
-//     console.error(err);
-//   }
-// };
+export const editWord = async (word) => {
+  try {
+    let url = `http://${endpoint}:3001/api/words/${word._id}`;
+    await axios.patch(url, word);
+  } catch (err) {
+    console.error(err);
+  }
+};
