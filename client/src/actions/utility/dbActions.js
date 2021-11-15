@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const endpoint = process.env.REACT_APP_BACKEND_URL;
-const endpoint = '0.0.0.0';
+const endpoint = process.env.REACT_APP_BACKEND_URL;
+// const endpoint = '0.0.0.0';
 // const endpoint = 'localhost'; //FOR DEVELOPMENT
 
 export const getWords = async () => {
