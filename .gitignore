@@ -6,6 +6,12 @@ API/.env
 API/node_modules
 API/scripts/env
 API/scripts/.env
+API/scripts/c.csv
+API/scripts/colours.csv
+API/scripts/newVerbs.csv
+API/scripts/sprint.csv
+API/scripts/verbs.csv
+API/scripts/new_words.csv
 
 client/node_modules
 client/dist
