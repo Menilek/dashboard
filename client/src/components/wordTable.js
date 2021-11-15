@@ -31,14 +31,23 @@ const LanguageTable = () => {
     const amharic = e.target.getAttribute('value');
     const english = e.target.getAttribute('name');
     const word = { english: english, amharic: amharic };
-    if (Array.isArray(favourites) && !favourites.length) {
-      setFavourites((favourites) => favourites.concat(word));
-      const favouritesString = JSON.stringify(favourites);
+    const isWordPresent = (element) => {
+      return favourites.find((e) => e['amharic'] === element['amharic']) ? true : false;
+    };
+    let wordPresent = isWordPresent(word);
+    const isArrayAndEmpty = () => {
+      return Array.isArray(favourites) && !favourites.length;
+    };
+    if (!wordPresent || isArrayAndEmpty()) {
+      const newFavourites = (favourites) => favourites.concat(word);
+      const newFaves = newFavourites(favourites);
+      setFavourites(newFaves);
+      const favouritesString = JSON.stringify(newFaves);
       localStorage.setItem('Favourites', favouritesString);
     } else {
       let newFaves = reject(favourites, (fave) => fave['amharic'] === word['amharic']);
-      setFavourites(newFaves);
-      const favouritesString = JSON.stringify(favourites);
+      setFavourites([...newFaves]);
+      const favouritesString = JSON.stringify(newFaves);
       localStorage.setItem('Favourites', favouritesString);
     }
   };
