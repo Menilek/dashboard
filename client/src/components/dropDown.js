@@ -7,8 +7,8 @@ const CategoryDropdown = () => {
 
   const toggleDropdown = () => setDropdownOpen((prevState) => !prevState);
 
-  const toggleOptionActive = (e) => {
-    const name = e.target.getAttribute('name');
+  const toggleOptionActive = () => {
+    // const name = e.target.getAttribute('name');
     setOptionActive((prevState) => !prevState);
   };
 
