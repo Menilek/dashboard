@@ -31,13 +31,13 @@ const LanguageTable = () => {
     const amharic = e.target.getAttribute('value');
     const english = e.target.getAttribute('name');
     const word = { english: english, amharic: amharic };
+    const isArrayAndEmpty = () => {
+      return Array.isArray(favourites) && !favourites.length;
+    };
     const isWordPresent = (element) => {
       return favourites.find((e) => e['amharic'] === element['amharic']) ? true : false;
     };
     let wordPresent = isWordPresent(word);
-    const isArrayAndEmpty = () => {
-      return Array.isArray(favourites) && !favourites.length;
-    };
     if (!wordPresent || isArrayAndEmpty()) {
       const newFavourites = (favourites) => favourites.concat(word);
       const newFaves = newFavourites(favourites);
@@ -52,6 +52,14 @@ const LanguageTable = () => {
     }
   };
 
+  const toggleAddModal = () => {
+    setAddModalOpen(!addModalOpen);
+  };
+
+  const toggleFavouritesModal = () => {
+    setFavouritesModalOpen(!favouritesModalOpen);
+  };
+
   const toggleDeleteModal = (e) => {
     const deleteWord = e.target.getAttribute('value');
     const id = e.target.getAttribute('name');
@@ -61,19 +69,17 @@ const LanguageTable = () => {
   };
 
   const toggleEditModal = (e) => {
-    const amharicWord = e.target.getAttribute('value');
-    setModalWord(amharicWord);
-    const englishWord = e.target.getAttribute('name');
-    setEditModalWord(englishWord);
-    setEditModalOpen(!editModalOpen);
-  };
-
-  const toggleAddModal = () => {
-    setAddModalOpen(!addModalOpen);
-  };
-
-  const toggleFavouritesModal = () => {
-    setFavouritesModalOpen(!favouritesModalOpen);
+    if (e) {
+      const id = e.target.getAttribute('name');
+      setModalID(id);
+      const amharicWord = e.target.getAttribute('value');
+      setModalWord(amharicWord);
+      // const englishWord = e.target.getAttribute('value');
+      setEditModalWord(amharicWord);
+      setEditModalOpen(!editModalOpen);
+    } else {
+      setEditModalOpen(!editModalOpen);
+    }
   };
 
   const clearState = () => {
@@ -104,10 +110,25 @@ const LanguageTable = () => {
     setDeleteModalOpen(!deleteModalOpen);
   };
 
-  const editWord = async () => {
-    // MAKE PATCH REQUEST
-    console.log('TO DO: IMPLEMENT EDIT FUNCTIONALITY');
-    setEditModalOpen(!editModalOpen);
+  const submitEditWord = async (e) => {
+    e.preventDefault();
+    try {
+      const word = {};
+      word['english'] = english ? english : undefined;
+      word['amharic'] = amharic ? amharic : undefined;
+      word['geez'] = geez ? geez : undefined;
+      word['category'] = category ? category : undefined;
+      word['_id'] = modalID;
+      Object.keys(word).forEach((key) => word[key] === undefined && delete word[key]);
+      // editWord(word);
+      // MAKE PATCH REQUEST
+      console.log('TO DO: IMPLEMENT EDIT FUNCTIONALITY');
+      toggleEditModal();
+    } catch (err) {
+      console.error(err);
+      clearState();
+      toggleEditModal();
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -184,7 +205,11 @@ const LanguageTable = () => {
             contentClassName="favouritesModal"
             isOpen={favouritesModalOpen}
             toggle={toggleFavouritesModal}>
-            <ModalHeader toggle={toggleFavouritesModal}>Here are your faves!</ModalHeader>
+            <ModalHeader toggle={toggleFavouritesModal}>
+              {favourites.length
+                ? `Here are your ${favourites.length} fave(s)!`
+                : 'Here are your faves!'}
+            </ModalHeader>
             <ModalBody>
               <FavouriteModal favourites={favourites} />
             </ModalBody>
@@ -228,7 +253,7 @@ const LanguageTable = () => {
           <Modal contentClassName="editModal" isOpen={editModalOpen} toggle={toggleEditModal}>
             <ModalHeader toggle={toggleEditModal}>Edit: {editModalWord}</ModalHeader>
             <ModalBody>
-              <Form onSubmit={editWord}>
+              <Form onSubmit={submitEditWord}>
                 <EditWordModal
                   english={english}
                   setEnglish={setEnglish}
@@ -239,7 +264,7 @@ const LanguageTable = () => {
                   category={category}
                   setCategory={setCategory}
                 />
-                <Button block color="primary" onClick={editWord}>
+                <Button block color="primary" onClick={submitEditWord}>
                   EDIT
                 </Button>
               </Form>
@@ -250,7 +275,7 @@ const LanguageTable = () => {
         </div>
 
         <div className="languageTable">
-          <Table>
+          <Table responsive>
             <thead>
               <tr>
                 <th>English</th>
@@ -286,8 +311,8 @@ const LanguageTable = () => {
                   </td>
                   <td>
                     <i
-                      value={word.amharic}
-                      name={word.english}
+                      value={word.english}
+                      name={word._id}
                       onClick={toggleEditModal}
                       className="fas fa-edit tableAction"></i>
                   </td>
