@@ -13,6 +13,7 @@ const LanguageTable = () => {
   const [loading, setLoading] = useState(true);
   const [words, setWords] = useState([]);
   const [favourites, setFavourites] = useState([]);
+  const [favouriteHeader, setFavouriteHeader] = useState('');
   const [favouritesModalOpen, setFavouritesModalOpen] = useState(false);
   const [deleteModalOpen, setDeleteModalOpen] = useState(false);
   const [modalWord, setModalWord] = useState('');
@@ -27,7 +28,19 @@ const LanguageTable = () => {
   const [query, setQuery] = useState('');
   const [searchParam] = useState(['english', 'amharic', 'geez']);
 
+  const generateFavouriteHeader = (faves) => {
+    setFavouriteHeader('');
+    if (!faves) {
+      setFavouriteHeader('Add favourites to see them here');
+    } else if (faves > 1) {
+      setFavouriteHeader(`Here are your ${faves} favourites`);
+    } else {
+      setFavouriteHeader('Here is your only favourite');
+    }
+  };
+
   const toggleFavourite = (e) => {
+    setFavouriteHeader('');
     const amharic = e.target.getAttribute('value');
     const english = e.target.getAttribute('name');
     const word = { english: english, amharic: amharic };
@@ -41,11 +54,13 @@ const LanguageTable = () => {
     if (!wordPresent || isArrayAndEmpty()) {
       const newFavourites = (favourites) => favourites.concat(word);
       const newFaves = newFavourites(favourites);
+      generateFavouriteHeader(newFaves.length);
       setFavourites(newFaves);
       const favouritesString = JSON.stringify(newFaves);
       localStorage.setItem('Favourites', favouritesString);
     } else {
       let newFaves = reject(favourites, (fave) => fave['amharic'] === word['amharic']);
+      generateFavouriteHeader(newFaves.length);
       setFavourites([...newFaves]);
       const favouritesString = JSON.stringify(newFaves);
       localStorage.setItem('Favourites', favouritesString);
@@ -161,6 +176,7 @@ const LanguageTable = () => {
       fetchWords();
       fetchFavourites();
       setLoading(false);
+      generateFavouriteHeader(favourites.length);
     } catch (err) {
       console.error(err);
     }
@@ -203,11 +219,7 @@ const LanguageTable = () => {
             contentClassName="favouritesModal"
             isOpen={favouritesModalOpen}
             toggle={toggleFavouritesModal}>
-            <ModalHeader toggle={toggleFavouritesModal}>
-              {favourites.length
-                ? `Here are your ${favourites.length} fave(s)!`
-                : 'Here are your faves!'}
-            </ModalHeader>
+            <ModalHeader toggle={toggleFavouritesModal}>{favouriteHeader}</ModalHeader>
             <ModalBody>
               <FavouriteModal favourites={favourites} />
             </ModalBody>
