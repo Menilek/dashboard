@@ -157,6 +157,13 @@
   text-align: center;
 }
 
+.drag {
+  cursor: -webkit-grab;
+  cursor: grab;
+  font-size: large;
+  font-weight: 550;
+}
+
 .deleteButtons {
   position: flex;
   align-items: center;
