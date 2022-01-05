@@ -8,7 +8,7 @@ const router = express.Router();
 // @access Public
 router.get("/", async (req, res) => {
   Word.find({}, '-__v')
-    .sort({ english: 1 })
+    .sort({ '_id': -1 })
     .then((words) => res.status(200).json(words));
 });
 
