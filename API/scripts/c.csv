@@ -411,7 +411,7 @@ Open,Mekfet,መክፈት,Verb
 Close,Mezgat,መዝጋት,Verb
 Organize,Maderajet,ማጀራጀት,Verb
 Pay,Mekfel,መክፈል,Verb
-Play,Mechawet,መጫወት,Verb
+To Play,Mechawet,መጫወት,Verb
 Put,Maskemet,ማስቀመጥ,Verb
 Rain,Mezneb,መዝነብ,Verb
 Read,Manbeb,ማንበብ,Verb
@@ -452,3 +452,506 @@ Watch,Mayet,ማየት,Verb
 Work,Mesrat,መስራት,Verb
 Worry,Mechenek,መጨነቅ,Verb
 Write,Metsaf,መጻፍ,Verb
+I like...,Ene ... ewedalehu,,Phrase
+He likes...,Esu ... ywedal,,Phrase
+She likes...,Esua twedalech,,Phrase
+You like...(m),Ante ... twedaleh,,Phrase
+You like...(f),Anchi ... twejalesh,,Phrase
+You like...(plural),Enante ...  twedalachihu,,Phrase
+We like...,Egna ... enwedalen,,Phrase
+They like...,Enesu ... ywedalu,,Phrase
+You like...(respectful),Eriso ... ywedalu,,Phrase
+I don't like...,Ene ... alwedm,,Phrase
+He doesn't like...,Esu ... aywedm,,Phrase
+She doesn't like...,Esua ... atwedm,,Phrase
+You don't like...(m),Ante ... atwedm,,Phrase
+You don't like...(f),Anchi ... atwejim,,Phrase
+We don't like...,Egna ... anwedm,,Phrase
+You don't like...(plural),Enante ... atwedum,,Phrase
+They don't like...,Enesu ... aywedum,,Phrase
+You don't like...(respectful),Eriso ... aywedum,,Phrase
+I want ...,Ene ... efelgalehu,,Phrase
+He wants ...,Esu ... yfelgal,,Phrase
+She wants ...,Esua ... tfelgalech,,Phrase
+You want ... (m),Ante ... tfelgaleh,,Phrase
+You want ... (f),Anchi ... tfelgiyalesh,,Phrase
+We want ...,Egna ... enfelgalen,,Phrase
+You want ... (plural),Enante ... tfelgalachihu,,Phrase
+They want ...,Enesu ... yfegalu,,Phrase
+You want ... (respectful),Eriso ... yfelgalu,,Phrase
+I don't want ...,Ene ... alfelgm,,Phrase
+He doesn't want ...,Esu ... ayfelgm,,Phrase
+She doesn't want ...,Esua ... atfelgm,,Phrase
+You don't want ... (m),Ante ... atfelgm,,Phrase
+You don't want ... (f),Anchi ... atfelgim,,Phrase
+We don't want ...,Egna ... anfelgm,,Phrase
+You don't want ... (plural),Enante ... atfelgum,,Phrase
+They don't want ...,Enesu ... ayfelgum,,Phrase
+You don't want (respectful),Eriso ... ayfelgum,,Phrase
+Does he want ...?,Esu mn ... yfelgal?,,Phrase
+Does she want ...?,Esua ... tfelgalech?,,Phrase
+Do you want ...? (m),Ante ... tfelgaleh?,,Phrase
+Do you want ...? (f),Anchi ... tfelgiyalesh?,,Phrase
+Do we want ...?,Egna ... enfelgalen?,,Phrase
+Do you want ...? (plural),Enante ... tfelgalachihu?,,Phrase
+Do they want...?,Enesu ... yfelgalu?,,Phrase
+Do you want ...? (respectful),Eriso ... yfelgalu?,,Phrase
+I can ...,Ene ... echlalehu,,Phrase
+He can ...,Esu ... ychlal,,Phrase
+She can ...,Esua ... tchlalech,,Phrase
+You can ... (m),Ante ... tchlaleh,,Phrase
+You can ... (f),Anchi ... tchyalesh,,Phrase
+We can ...,Egna ... anchlalen,,Phrase
+You can ... (plural),Enante ... tchlalachihu,,Phrase
+They can ...,Enesu ... ychlalu,,Phrase
+You can ... (respectful),Eriso ... ychlalu,,Phrase
+He/She can ... (respectful,Esachew ... ychlalu,,Phrase
+I can't ...,Ene ... alchilim,,Phrase
+He can't ...,Esu ... aychlm,,Phrase
+She can't ...,Esua ... atchlm,,Phrase
+You can't ... (m),Ante ... atchlm,,Phrase
+You can't ... (f),Anchi ... atchym,,Phrase
+We can't ...,Egna ... anchlm,,Phrase
+You can't ... (plural),Enante ... atchlum,,Phrase
+They can't ...,Enesu ... aychlum,,Phrase
+You can't ... (respectful),Eriso ... aychlum,,Phrase
+He/She can't ... (respectful),Esachew ... aychlum,,Phrase
+I went ...,Hedku,,Phrase
+He went ...,Hede,,Phrase
+She went ...,Hedech,,Phrase
+You went ... (m),Hedk,,Phrase
+You went ... (f),Hedsh,,Phrase
+We went ...,Hedn,,Phrase
+You went ... (plural),Hedachihu,,Phrase
+They went ...,Hedu,,Phrase
+You went ... (respectful),Hedu,,Phrase
+I gave ...,Settehu,,Phrase
+He gave ...,Sette,,Phrase
+She gave ...,Settech,,Phrase
+You gave ... (m),Setteh,,Phrase
+You gave ... (f),Settesh,,Phrase
+We gave,Settn,,Phrase
+You gave ... (plural),Settachihu,,Phrase
+They gave ...,Settu,,Phrase
+You gave ... (respectful),Settu,,Phrase
+I received ...,Teqebelku,,Phrase
+"He received ... ",Teqebele,,Phrase
+She received ...,Teqebelech,,Phrase
+You received ... (m),Teqebelk,,Phrase
+You received ... (f),Teqebelsh,,Phrase
+We received ...,Teqebeln,,Phrase
+You received ... (plural),Teqebelachihu,,Phrase
+They received ...,Teqebelu,,Phrase
+You received ... (respectful),Teqebelu,,Phrase
+I jumped,Zelelku,,Phrase
+He jumped,Zelele,,Phrase
+She jumped,Zelelech,,Phrase
+You jumped (m),Zelelk,,Phrase
+You jumped (f),Zelelsh,,Phrase
+We jumped,Zeleln,,Phrase
+You jumped (plural),Zelelachihu,,Phrase
+They jumped,Zelelu,,Phrase
+You jumped (respectful),Zelelu,,Phrase
+I came,Mettahu,,Verb
+He came,Metta,,Verb
+She came,Mettach,,Verb
+You came (m),Mettah,,Verb
+You came (f),Mettash,,Verb
+We came,Mettan,,Verb
+You came (plural),Mettachihu,,Verb
+They came,Mettu,,Verb
+You came (respectful),Mettu,,Verb
+I saw,Ayehu,,Verb
+He saw,Aye,,Verb
+She saw,Ayech,,Verb
+You saw (m),Ayeh,,Verb
+You saw (f),Ayesh,,Verb
+We saw,Ayen,,Verb
+You saw (plural),Ayechihu,,Verb
+They saw,Ayu,,Verb
+You saw (respectful),Ayu,,Verb
+I listened,Adamettku,,Verb
+He listened,Adamette,,Verb
+She listened,Adamettech,,Verb
+You listened (m),Adamettk,,Verb
+You listened (f),Adamettsh,,Verb
+We listened,Adamettn,,Verb
+You listened (plural),Adamettachihu,,Verb
+They listened,Adamettu,,Verb
+You listened (respectful),Adamettu,,Verb
+I watched,Temeleketku,,Verb
+He watched,Temelekete,,Verb
+She watched,Temeleketech,,Verb
+You watched (m),Temeleketk,,Verb
+You watched (f),Temeleketsh,,Verb
+We watched,Temeleketn,,Verb
+You watched (plural),Temeleketachihu,,Verb
+They watched,Temeleketu,,Verb
+You watched (respectful),Temeleketu,,Verb
+I cleaned,Atsedahu,,Verb
+He cleaned,Atseda,,Verb
+She cleaned,Atsedach,,Verb
+You cleaned (m),Atsedah,,Verb
+You cleaned (f),Atsedash,,Verb
+We cleaned,Atsedan,,Verb
+You cleaned (plural),Atsedachihu,,Verb
+They cleaned,Atsedu,,Verb
+You cleaned (respectful),Atsedu,,Verb
+I opened,Kefetku,,Verb
+He opened,Kefete,,Verb
+She opened,Kefetech,,Verb
+You opened (m),Kefetk,,Verb
+You opened (f),Kefetsh,,Verb
+We opened,Kefetn,,Verb
+You opened (plural),Kefetachihu,,Verb
+They opened,Kefetu,,Verb
+You opened (respectful),Kefetu,,Verb
+I broke,Seberku,,Verb
+He broke,Sebere,,Verb
+She broke,Seberech,,Verb
+You broke (m),Seberek,,Verb
+You broke (f),Sebersh,,Verb
+We broke,Sebern,,Verb
+You broke (plural),Seberachihu,,Verb
+They broke,Seberu,,Verb
+You broke (respectful),Seberu,,Verb
+I borrowed,Tebederku,,Verb
+He borrowed,Tebedere,,Verb
+She borrowed,Tebederch,,Verb
+You borrowed (m),Tebederk,,Verb
+You borrowed (f),Tebderesh,,Verb
+We borrowed,Tebedern,,Verb
+You borrowed (plural),Tebederachihu,,Verb
+They borrowed,Tebederu,,Verb
+You borrowed (respectful),Tebederu,,Verb
+I worried,Teccheneku,,Verb
+He worried,Teccheneke,,Verb
+She worried,Tecchenekech,,Verb
+You worried (m),Tecchenek,,Verb
+You worried (f),Teccheneksh,,Verb
+We worried,Tecchenekn,,Verb
+You worried (plural),Tecchenekachihu,,Verb
+They worried,Teccheneku,,Verb
+You worried (respectful),Teccheneku,Verb
+I worked,Serahu,,Verb
+He worked,Serah,,Verb
+She worked,Serach,Verb
+You worked (m),Serahe,,Verb
+You worked (f),Serash,,Verb
+We worked,Seran,,Verb
+You worked (plural),Serachihu,,Verb
+They worked,Seru,,Verb
+You worked (respectful),Seru,,Verb
+I turned on,Aberahu,,Verb
+He turned on,Aberah,,Verb
+She turned on,Aberach,,Verb
+You turned on (m),Aberahe,,Verb
+You turned on (f),Aberash,,Verb
+We turned on,Aberan,,Verb
+You turned on (plural),Aberachihu,,Verb
+They turned on,Aberu,,Verb
+You turned on (respectful),Aberu,,Verb
+I turned off,Atterfahu,,Verb
+He turned off,Atterfah,,Verb
+She turned off,Atterfach,,Verb
+You turned off (m),Atterfahe,,Verb
+You turned off (f),Atterfash,,Verb
+We turned off,Atterfan,,Verb
+You turned off (plural),Atterfachihu,,Verb
+They turned off,Atterfu,,Verb
+You turned off (respectful),Atterfu,,Verb
+I understood,Redatku,,Verb
+He understood,Redatke,,Verb
+She understood,Redatch,,Verb
+You understood (m),Redatk,,Verb
+You understood(f),Redatsh,,Verb
+We understood,Redatn,,Verb
+You understood (plural),Redatachihu,,Verb
+They understood,Redatu,,Verb
+You understood (respectful),Redatu,,Verb
+I tried,Mokerhu,,Verb
+He tried,Mokerhe,,Verb
+She tried,Mokerech,,Verb
+You tried (m),Mokerh,,Verb
+We tried,Mokern,,Verb
+You tried (plural),Mokerachihu,,Verb
+They tried,Mokeru,,Verb
+You tried (respectful),Mokeru,,Verb
+I thought,Sebku,,Verb
+He thought,Sebke,,Verb
+She thought,Sebch,,Verb
+You thought (m),Sebk,,Verb
+You thought (f),Sebsh,,Verb
+We thought,Sebn,,Verb
+You thought (plural),Sebachihu,,Verb
+They thought,Sebu,,Verb
+You thought (respectful),Sebu,,Verb
+Variant,Zyra,,Noun
+To increase,Mechemer,,Verb
+To get angry,Menaded,,Verb
+To find/discover,Meweqes,,Verb
+Flight,Berera,,Noun
+Sanction,Maeqeb,,Noun
+Somtimes,Andande,,Adverb
+You see,Tayewaleh,,Phrase
+Key,Qulf,,Noun
+To connect,Magenagnet,,Verb
+Imagine,Asbew,,Verb
+Picture it,Salew,,Phrase
+Glasses,Menetsr,,Noun
+To wear,Madreg,,Verb
+Let me find,Lfelg,,Phrase
+Something to wear,Yemilebes,,Noun
+Space,Hwa,,Noun
+Place,Bota,,Noun
+This one,Yhnn,,Phrase
+Disappear,Mettfat,,Verb
+Amazing,Asgerami,,Adjective
+Art,Ttbeb,,Noun
+To float,Mensafef,,Verb
+In the future,Wedefit,,Preposition
+Word,Qal,,Noun
+Let's see,Eny,,Phrase
+To look like,Memsel,,Verb
+Me,Enen,,Pronoun
+Side,Gon,,Noun
+It has,Alut,,Phrase
+To use,Lemetteqem,,Verb
+I have to go,Mehed alebgn,,Phrase
+Fast,Fettan,,Adjective
+To Use,Metteqem,,Verb
+Jaw,Agech,,Noun
+Pray,Tsely,,Verb
+To Be,Mehon,,Verb
+I became,Honku,,Verb
+I will become,Ehonalehu,,Verb
+Reply/Answer,Mels,,Noun
+To Provide,Maqreb,,Verb
+He will prepare it for me,Yazegajlgnal,,Phrase
+Voice,Dmts,,Noun
+Command,Tezaz,,Noun
+Soy Bean,Akura Ater,,Noun
+It Swells,Yabtel,,Verb
+Swelling,Ebttet,,Noun
+Not good,Not bad (to have no opinon),Minim Alilm,,Phrase
+Page,Gets,,Noun
+Plan,Eqd,,Noun
+To do often,Mazewter,,Verb
+Self,Gle,,Noun
+Memoir,Mastewesha,,Noun
+Private,Yegl,,Adjective
+Public,Yemengst,,Adjective
+Doll,Ashangulit,,Noun
+Emotion,Semet,,Noun
+Emotional,Semetam,,Adjective
+To Watch,Memelket,,Verb
+Interview,Qalemettyq,,Noun
+To be angry,Mebesachet,,Verb
+To be relaxed,Rega malet,,Verb
+He is relaxed,Rega blual,,Phrase
+She is relaxed,Rega Blalech,,Phrase
+You wrote (m),Tsfehal,,Verb
+You wrote (f),Tsfeshal,,Verb
+He wrote,Tsfual,,Verb
+Do you believe?,Tamnaleh,,Phrase
+Amazing,Asdenaqi,,Adjective
+Great,Talaq,,Adjective
+Elite,Liq,,Noun
+Prison,Esir bet,,Noun
+Month,Wer,,Noun
+Parent,Welaj,,Noun
+Christmas,Gena,,Noun
+Where I grew up,Yadekubet,,Phrase
+Where I came from,Yemmettahubet,,Phrase
+Window,Meskot,,Noun
+Bedroom,Megnita bet,,Noun
+Bed,Alga,,Noun
+With me,Kene gar,,Phrase
+When you recover,Stdn,,Phrase
+You can go together,Abrachihu thedalachihu,,Phrase
+Dream,Hlm,,Noun
+A few days ago,Keqenat befit,,Phrase
+Break,Ereft,,Noun
+To wander,Mezor,,Verb
+Around,Zuriya,,Adverb
+Saving,Qutteba,,Noun
+It will,Yehonal,,Phrase
+Wish,Mgnot,,Noun
+I won,Ashenefku,,Verb
+Points,Nettb,,Noun
+To surrender (to give your hand idiom),Ej sette,,Phrase
+To get fat,Mewefer,,Verb
+Fat,Wefram,,Adjective
+Tall,Qumet,,Adjective
+Huge,Gzuf,,Adjective
+You will become,Thonaleh,,Phrase
+Fighter,Tedebadabi,,Noun
+The previous,Kalefew,,Preposition
+We will cook,Enabislalen,,Verb
+Main thing,Wanaw,,Phrase
+To burn,Manded,,Verb
+Following,Beteketatay,,Preposition
+I won't be,Alhonm,,Phrase
+To celebrate,Makber,,Verb
+Boast,Gura,,Verb
+To boast,Gura madreg,,Verb
+To show,Masayet,,Verb
+Action,Drgit,,Noun
+To order,Mazez,,Verb
+I ordered,Azezku,,Verb
+Curse/Swear,Sdb,,Noun
+To practice,Melemamed,,Verb
+Afternoon,Keseat,,Noun
+City,Ketema,,Noun
+Teenage,Asrawoch,,Noun
+When you were,Eyaleh,,Phrase
+Kind/Type,Aynet,,Noun
+Listen,Tsema,,Verb
+Thing,Neger,,Noun
+Rough,Shekara,,Adjective
+Knee,Gulbet,,Noun
+To bump,Megachet,,Verb
+To hit,Megchet,,Verb
+I hit,Gechehu,,Verb
+Gears,Marsh,,Noun
+I drove,Nedahu,,Verb
+Are you sure?,Ergttegna neh,,Phrase
+If I don't drive,Kalnedahut,,Phrase
+If I don't ___,Kal___ut,,Phrase
+It is fun/entertaining,Yaznanal,,Phrase
+Fun/Entertaining,Aznagn,,Adjective
+Slow,Zgta,,Adjective
+Slowly,Bezgta,,Adverb
+Automobile,Teshkerkan,,Noun
+Etc,Minamen,,Phrase
+You remembered (m),Tastawsaleh,,Verb
+To remember,Mastawes,,Verb
+When it is,Sihon,,Preposition
+At the time,Bemihonbet,,Preposition
+Alternative,Amarach,,Noun
+We have,Yalen,,Verb
+Service,Aglegot,,Noun
+Companies,Drjtoch,,Noun
+Face mask,Yeaf chinbl,,Noun
+Habit,Lmd,,Noun
+A must/obligation,Gdeta,,Noun
+Easy,Qelal,,Adjective
+Myself,Lerase,,Pronoun
+For it to ___,Endi____,,Phrase
+For it to work,Endisirah,,Phrase
+Last time,Balefew,,Preposition
+Got sick,Amoh,,Verb
+To make up,Makakas,,Verb
+To heal,Mekan,,Verb
+Theif,Leba,,Noun
+Quickly,Befitnat,,Adverb
+Way/Method,Zede,,Noun
+Learning,Yememar,,Verb
+___ing,Ye___,,Verb
+Dark,Meshto,,Noun
+Very well,Bedenb,,Phrase
+Trade/Commercial business,Ngd,,Noun
+Restaurant,Mgb bet,,Noun
+To Wait For,Metabek,,Verb
+Nowhere,Yetum,,Adverb
+To Be Late,Marfet,,Verb
+To Recover/Be Better,,Meshal
+Was,Neber,,Verb
+To Spend,Masalef,,Verb
+Ourselve,Rasachn,,Pronoun
+To Help,Merdat,,Verb
+To crush (with teeth),Meqorttem,,Verb
+Finger,Ttat,,Noun
+Boring,Ydebral,,Adjective
+I am bored,Debrogbal,,Phrase
+Boring,Debari,,Adjective
+Exciting,Des Yemil,,Adjective
+Corn,Beqolo,,Noun
+Rice,Ruz,,Noun
+Train,Babur,,Noun
+Flavour,Ttaem,,Noun
+Cinammon,Qerefa,,Noun
+Magic,Asmat,,Noun
+Health,Ttena,,Noun
+Sweets/Sweet Thing,Ttefach,,Noun
+List,Zrzr,,Noun
+Worker,Sirahtegna,,Noun
+I Say,Alku,,Verb
+I Wait,Tebeqku,,Verb
+Price,Wagaw,,Noun
+Close to,Tegat,,Preposition
+Do You Know,Taqali,,Phrase
+Mountain,Terera,,Noun
+I Left,Wettahu,,Verb
+Rhino,Awraris,,Noun
+Board,Seleda,,Noun
+Wall,Gdgeta,,Noun
+Daily Plan,Elatawi eqd,,Noun
+Weekly Plan,Werhawi eqd,,Noun
+Monthly Plan,Ametawi eqd,,Noun
+Good,Arif,,Adjective
+Kid,Htsan,,Noun
+Young child,Htsan lij,,Noun
+To Let Go,Melqeq,,Verb
+Tire,Dkam,,Noun
+Were,Neberu,,Verb
+They Left,Wettu,,Verb
+To Get Drunk,Mesher,,Verb
+To Drink,Mettettatt,,Verb
+He Fell,Wedeqe,,Verb
+Knife,Bila,,Noun
+Floor,Meret,,Noun
+Security,Ttebeqa,,Noun
+To Happen,Mekeset,,Verb
+They Happened,Tekesetu,,Verb
+Do You Understand? (f),Gebash,,Phrase
+To Turn On (music),Kfetu,,Verb
+Sound,Dmt,,Noun
+Increase,Chemnew,,Verb
+I Slept,Tegnahu,,Verb
+I Will Beat Them,Ashenfachewalehu,,Verb
+Team,Budn,,Noun
+Room,Kfl,,Noun
+Author,Derasi,,Noun
+It Looks Like,Ymeslal,,Phrase
+Centre,Mehal,,Noun
+We Waited,Tabeqa,,Verb
+Table,Terapesa,,Noun
+She Was...,Neberech,,Verb
+Plate,Sahn,,Noun
+Market/Supermarket,Gebeya,,Noun
+Milk,Wetet,,Noun
+Beer,Bira,,Noun
+I Told Him,Negerkut,,Verb
+I Can Hear,Ysegenagnal,,Verb
+What He Told Me,Yenegeregn,,Verb
+I Am/To Be,Endehone,,Verb
+He Has,Endaylut,,Verb
+In A ______ Way,Be______ huneta,,Phrase
+I Got Angry,Tebesachu,,Verb
+To Meet,Megenagett,,Verb
+When We Meet,Snegagn,,Verb
+Comedy/Joke,Qeld,,Noun
+Like This,Endezi,,Phrase
+Celebrate it,Anebernew,,Verb
+Old,Yareje,,Adjective
+My Previous,Yabefit,,Phrase
+It Will Be Taken,Ywesedal,,Phrase
+Weight,Kbdeb,,Noun
+Height,Qumet,,Noun
+To Understand,Meredat,,Verb
+To Lose/Reduce/Minimise,Meqenes,,Verb
+To Win,Mashenaf,,Verb
+To be proud,Mekurat,,Verb
+Proud,Kurat,,Adjective
+I will make myself proud,Akorawalehu,,Verb
+Competition,Wddr,,Noun
+To take place,Mekahed,,Verb
+Le,To,,Preposition
+Sports clothing (for competition/combat),Tittq,,Noun
+Supporter,Degafi,,Noun
+Favourite,Bettam yemtwedew,,Noun
+Definitely/For certain,Be ergttegnnet,,Adverb
+Without a doubt,Vale ttrtt,,Phrase
+Hard,Ttenkre,,Adjective
+I will work,Eseralehu,,Verb

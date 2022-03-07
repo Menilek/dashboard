@@ -1,5 +1,1146 @@
 [
     {
+        "_id": "6226799e2167448fe657dbe5",
+        "amharic": "Eseralehu",
+        "geez": "",
+        "english": "I will work",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbe4",
+        "amharic": "Ttenkre",
+        "geez": "",
+        "english": "Hard",
+        "category": "Adjective"
+    },
+    {
+        "_id": "6226799e2167448fe657dbe3",
+        "amharic": "Vale ttrtt",
+        "geez": "",
+        "english": "Without a doubt",
+        "category": "Phrase"
+    },
+    {
+        "_id": "6226799e2167448fe657dbe2",
+        "amharic": "Be ergttegnnet",
+        "geez": "",
+        "english": "Definitely/For certain",
+        "category": "Adverb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbe1",
+        "amharic": "Bettam yemtwedew",
+        "geez": "",
+        "english": "Favourite",
+        "category": "Noun"
+    },
+    {
+        "_id": "6226799e2167448fe657dbe0",
+        "amharic": "Degafi",
+        "geez": "",
+        "english": "Supporter",
+        "category": "Noun"
+    },
+    {
+        "_id": "6226799e2167448fe657dbdf",
+        "amharic": "Tittq",
+        "geez": "",
+        "english": "Sports clothing (for competition/combat)",
+        "category": "Noun"
+    },
+    {
+        "_id": "6226799e2167448fe657dbde",
+        "amharic": "To",
+        "geez": "",
+        "english": "Le",
+        "category": "Preposition"
+    },
+    {
+        "_id": "6226799e2167448fe657dbdd",
+        "amharic": "Mekahed",
+        "geez": "",
+        "english": "To take place",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbdc",
+        "amharic": "Wddr",
+        "geez": "",
+        "english": "Competition",
+        "category": "Noun"
+    },
+    {
+        "_id": "6226799e2167448fe657dbdb",
+        "amharic": "Akorawalehu",
+        "geez": "",
+        "english": "I will make myself proud",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbda",
+        "amharic": "Kurat",
+        "geez": "",
+        "english": "Proud",
+        "category": "Adjective"
+    },
+    {
+        "_id": "6226799e2167448fe657dbd9",
+        "amharic": "Mekurat",
+        "geez": "",
+        "english": "To be proud",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbd8",
+        "amharic": "Mashenaf",
+        "geez": "",
+        "english": "To Win",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbd7",
+        "amharic": "Meqenes",
+        "geez": "",
+        "english": "To Lose/Reduce/Minimise",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbd6",
+        "amharic": "Meredat",
+        "geez": "",
+        "english": "To Understand",
+        "category": "Verb"
+    },
+    {
+        "_id": "6226799e2167448fe657dbd5",
+        "amharic": "Qumet",
+        "geez": "",
+        "english": "Height",
+        "category": "Noun"
+    },
+    {
+        "_id": "6226799e2167448fe657dbd4",
+        "amharic": "Kbdeb",
+        "geez": "",
+        "english": "Weight",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142055132ba7c0dfafc3fd",
+        "amharic": "Mewerwer",
+        "geez": "",
+        "english": "To Dive",
+        "category": "Verb"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09389",
+        "amharic": "Fitnett",
+        "geez": "",
+        "english": "Fast",
+        "category": "Adverb"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09388",
+        "amharic": "Egir",
+        "geez": "",
+        "english": "Leg",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09387",
+        "amharic": "Ber",
+        "geez": "",
+        "english": "Door",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09386",
+        "amharic": "Debdabe",
+        "geez": "",
+        "english": "Letter",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09385",
+        "amharic": "Meches",
+        "geez": "",
+        "english": "To Smoke",
+        "category": "Verb"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09384",
+        "amharic": "Abuara",
+        "geez": "",
+        "english": "Dust",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09383",
+        "amharic": "Afecha",
+        "geez": "",
+        "english": "Nose",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09382",
+        "amharic": "Metenfes",
+        "geez": "",
+        "english": "To Breathe",
+        "category": "Verb"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09381",
+        "amharic": "Megaleb",
+        "geez": "",
+        "english": "To Ride (an animal)",
+        "category": "Verb"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a09380",
+        "amharic": "Kesemay Mewerwer",
+        "geez": "",
+        "english": "Skydive",
+        "category": "Verb"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a0937f",
+        "amharic": "Yebetwuste",
+        "geez": "",
+        "english": "Indoor",
+        "category": "Noun"
+    },
+    {
+        "_id": "62142027ef2eeed5b1a0937e",
+        "amharic": "Sembet",
+        "geez": "",
+        "english": "Weekend",
+        "category": "Noun"
+    },
+    {
+        "_id": "6213de5085587992f1f33b0a",
+        "amharic": "Eriso ___ Yelewotm",
+        "geez": "",
+        "english": "You Don't Have (respectful)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b09",
+        "amharic": "Eriso ___ Alewot",
+        "geez": "",
+        "english": "You Have (respectful)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b08",
+        "amharic": "Enante ___ Yeluachihum",
+        "geez": "",
+        "english": "You Don't Have (to plural) (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b07",
+        "amharic": "Enante ___ Yelachihum",
+        "geez": "",
+        "english": "You Don't Have (to plural) (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b06",
+        "amharic": "Enante ___ Aluachihu",
+        "geez": "",
+        "english": "You Have (to plural) (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b05",
+        "amharic": "Enante ___ Alachihu",
+        "geez": "",
+        "english": "You Have (to plural) (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b04",
+        "amharic": "Enesu ___ Yeluachewm",
+        "geez": "",
+        "english": "They Don't Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b03",
+        "amharic": "Enesu ___ Yelachewm",
+        "geez": "",
+        "english": "They Don't Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b02",
+        "amharic": "Enesu ___ Aluachew",
+        "geez": "",
+        "english": "They Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b01",
+        "amharic": "Enesu ___ Alachew",
+        "geez": "",
+        "english": "They Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33b00",
+        "amharic": "Egna ___ Yelunm",
+        "geez": "",
+        "english": "We Don't Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aff",
+        "amharic": "Egna ___ Yelenm",
+        "geez": "",
+        "english": "We Don't Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33afe",
+        "amharic": "Egna ___ Alun",
+        "geez": "",
+        "english": "We Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33afd",
+        "amharic": "Egna ___ Alen",
+        "geez": "",
+        "english": "We Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33afc",
+        "amharic": "Anchi ___ Yelushm",
+        "geez": "",
+        "english": "You Don't Have (f) (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33afb",
+        "amharic": "Anchi ___ Yeleshm",
+        "geez": "",
+        "english": "You Don't Have (f) (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33afa",
+        "amharic": "Anchi ___ Alush",
+        "geez": "",
+        "english": "You Have (f) (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af9",
+        "amharic": "Anchi ___ Alesh",
+        "geez": "",
+        "english": "You Have (f) (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af8",
+        "amharic": "Ante ___ Yeleshm",
+        "geez": "",
+        "english": "You Don't Have (m) (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af7",
+        "amharic": "Ante ___ Yelehm",
+        "geez": "",
+        "english": "You Don't Have (m) (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af6",
+        "amharic": "Ante ___ Aluh",
+        "geez": "",
+        "english": "You Have (m) (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af5",
+        "amharic": "Ante ___ Aleh",
+        "geez": "",
+        "english": "You Have (m) (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af4",
+        "amharic": "Esua ___ Yeluatm",
+        "geez": "",
+        "english": "She Doesn't Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af3",
+        "amharic": "Esua ___ Yelatm",
+        "geez": "",
+        "english": "She Doesn't Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af2",
+        "amharic": "Esua ___ Aluat",
+        "geez": "",
+        "english": "She Has (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af1",
+        "amharic": "Esua ___ Alat",
+        "geez": "",
+        "english": "She Has (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33af0",
+        "amharic": "Esu ___ Yelutm",
+        "geez": "",
+        "english": "He Doesn't Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aef",
+        "amharic": "Esu ___ Yelewm",
+        "geez": "",
+        "english": "He Doesn't Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aee",
+        "amharic": "Esu ___ Alut",
+        "geez": "",
+        "english": "He Has (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aed",
+        "amharic": "Esu ___ Alew",
+        "geez": "",
+        "english": "He Has (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aec",
+        "amharic": "Ene ___ Yelegnum",
+        "geez": "",
+        "english": "I Don't Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aeb",
+        "amharic": "Ene ___ Yelegnem",
+        "geez": "",
+        "english": "I Don't Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33aea",
+        "amharic": "Ene ___ Alugn",
+        "geez": "",
+        "english": "I Have (plural)",
+        "category": "Verb"
+    },
+    {
+        "_id": "6213de5085587992f1f33ae9",
+        "amharic": "Ene ___ Alegn",
+        "geez": "",
+        "english": "I Have (singular)",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a946",
+        "amharic": "Ywesedal",
+        "geez": "",
+        "english": "It Will Be Taken",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a945",
+        "amharic": "Yabefit",
+        "geez": "",
+        "english": "My Previous",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a944",
+        "amharic": "Yareje",
+        "geez": "",
+        "english": "Old",
+        "category": "Adjective"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a943",
+        "amharic": "Anebernew",
+        "geez": "",
+        "english": "Celebrate it",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a942",
+        "amharic": "Endezi",
+        "geez": "",
+        "english": "Like This",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a941",
+        "amharic": "Qeld",
+        "geez": "",
+        "english": "Comedy/Joke",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a940",
+        "amharic": "Snegagn",
+        "geez": "",
+        "english": "When We Meet",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a93f",
+        "amharic": "Megenagett",
+        "geez": "",
+        "english": "To Meet",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a93e",
+        "amharic": "Tebesachu",
+        "geez": "",
+        "english": "I Got Angry",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a93d",
+        "amharic": "Be______ huneta",
+        "geez": "",
+        "english": "In A ______ Way",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a93c",
+        "amharic": "Endaylut",
+        "geez": "",
+        "english": "He Has",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a93b",
+        "amharic": "Endehone",
+        "geez": "",
+        "english": "I Am/To Be",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a93a",
+        "amharic": "Yenegeregn",
+        "geez": "",
+        "english": "What He Told Me",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a939",
+        "amharic": "Ysegenagnal",
+        "geez": "",
+        "english": "I Can Hear",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a938",
+        "amharic": "Negerkut",
+        "geez": "",
+        "english": "I Told Him",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a937",
+        "amharic": "Bira",
+        "geez": "",
+        "english": "Beer",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a936",
+        "amharic": "Wetet",
+        "geez": "",
+        "english": "Milk",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a935",
+        "amharic": "Gebeya",
+        "geez": "",
+        "english": "Market/Supermarket",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a934",
+        "amharic": "Sahn",
+        "geez": "",
+        "english": "Plate",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a933",
+        "amharic": "Neberech",
+        "geez": "",
+        "english": "She Was...",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a932",
+        "amharic": "Terapesa",
+        "geez": "",
+        "english": "Table",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a931",
+        "amharic": "Tabeqa",
+        "geez": "",
+        "english": "We Waited",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a930",
+        "amharic": "Mehal",
+        "geez": "",
+        "english": "Centre",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a92f",
+        "amharic": "Ymeslal",
+        "geez": "",
+        "english": "It Looks Like",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a92e",
+        "amharic": "Derasi",
+        "geez": "",
+        "english": "Author",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a92d",
+        "amharic": "Kfl",
+        "geez": "",
+        "english": "Room",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a92c",
+        "amharic": "Budn",
+        "geez": "",
+        "english": "Team",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a92b",
+        "amharic": "Ashenfachewalehu",
+        "geez": "",
+        "english": "I Will Beat Them",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a92a",
+        "amharic": "Tegnahu",
+        "geez": "",
+        "english": "I Slept",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a929",
+        "amharic": "Chemnew",
+        "geez": "",
+        "english": "Increase",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a928",
+        "amharic": "Dmt",
+        "geez": "",
+        "english": "Sound",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a927",
+        "amharic": "Kfetu",
+        "geez": "",
+        "english": "To Turn On (music)",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a926",
+        "amharic": "Gebash",
+        "geez": "",
+        "english": "Do You Understand? (f)",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a925",
+        "amharic": "Tekesetu",
+        "geez": "",
+        "english": "They Happened",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a924",
+        "amharic": "Mekeset",
+        "geez": "",
+        "english": "To Happen",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a923",
+        "amharic": "Ttebeqa",
+        "geez": "",
+        "english": "Security",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a922",
+        "amharic": "Meret",
+        "geez": "",
+        "english": "Floor",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a921",
+        "amharic": "Bila",
+        "geez": "",
+        "english": "Knife",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a920",
+        "amharic": "Wedeqe",
+        "geez": "",
+        "english": "He Fell",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a91f",
+        "amharic": "Mettettatt",
+        "geez": "",
+        "english": "To Drink",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a91e",
+        "amharic": "Mesher",
+        "geez": "",
+        "english": "To Get Drunk",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a91d",
+        "amharic": "Wettu",
+        "geez": "",
+        "english": "They Left",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a91c",
+        "amharic": "Neberu",
+        "geez": "",
+        "english": "Were",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a91b",
+        "amharic": "Dkam",
+        "geez": "",
+        "english": "Tire",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a91a",
+        "amharic": "Melqeq",
+        "geez": "",
+        "english": "To Let Go",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a919",
+        "amharic": "Htsan lij",
+        "geez": "",
+        "english": "Young child",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a918",
+        "amharic": "Htsan",
+        "geez": "",
+        "english": "Kid",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a917",
+        "amharic": "Arif",
+        "geez": "",
+        "english": "Good",
+        "category": "Adjective"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a916",
+        "amharic": "Ametawi eqd",
+        "geez": "",
+        "english": "Monthly Plan",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a915",
+        "amharic": "Werhawi eqd",
+        "geez": "",
+        "english": "Weekly Plan",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a914",
+        "amharic": "Elatawi eqd",
+        "geez": "",
+        "english": "Daily Plan",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a913",
+        "amharic": "Gdgeta",
+        "geez": "",
+        "english": "Wall",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a912",
+        "amharic": "Seleda",
+        "geez": "",
+        "english": "Board",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a911",
+        "amharic": "Awraris",
+        "geez": "",
+        "english": "Rhino",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a910",
+        "amharic": "Wettahu",
+        "geez": "",
+        "english": "I Left",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a90f",
+        "amharic": "Terera",
+        "geez": "",
+        "english": "Mountain",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a90e",
+        "amharic": "Taqali",
+        "geez": "",
+        "english": "Do You Know",
+        "category": "Phrase"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a90d",
+        "amharic": "Tegat",
+        "geez": "",
+        "english": "Close to",
+        "category": "Preposition"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a90c",
+        "amharic": "Wagaw",
+        "geez": "",
+        "english": "Price",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a90b",
+        "amharic": "Tebeqku",
+        "geez": "",
+        "english": "I Wait",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a90a",
+        "amharic": "Alku",
+        "geez": "",
+        "english": "I Say",
+        "category": "Verb"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a909",
+        "amharic": "Sirahtegna",
+        "geez": "",
+        "english": "Worker",
+        "category": "Noun"
+    },
+    {
+        "_id": "620e1bb2d3b360dc1a11a908",
+        "amharic": "Zrzr",
+        "geez": "",
+        "english": "List",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc87a1",
+        "amharic": "Ttefach",
+        "geez": "",
+        "english": "Sweets/Sweet Thing",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc87a0",
+        "amharic": "Ttena",
+        "geez": "",
+        "english": "Health",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc879f",
+        "amharic": "Asmat",
+        "geez": "",
+        "english": "Magic",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc879e",
+        "amharic": "Qerefa",
+        "geez": "",
+        "english": "Cinammon",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc879d",
+        "amharic": "Ttaem",
+        "geez": "",
+        "english": "Flavour",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc879c",
+        "amharic": "Babur",
+        "geez": "",
+        "english": "Train",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc879b",
+        "amharic": "Ruz",
+        "geez": "",
+        "english": "Rice",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc879a",
+        "amharic": "Beqolo",
+        "geez": "",
+        "english": "Corn",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8799",
+        "amharic": "Des Yemil",
+        "geez": "",
+        "english": "Exciting",
+        "category": "Adjective"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8798",
+        "amharic": "Debari",
+        "geez": "",
+        "english": "Boring",
+        "category": "Adjective"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8797",
+        "amharic": "Debrogbal",
+        "geez": "",
+        "english": "I am bored",
+        "category": "Phrase"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8796",
+        "amharic": "Ydebral",
+        "geez": "",
+        "english": "Boring",
+        "category": "Adjective"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8795",
+        "amharic": "Ttat",
+        "geez": "",
+        "english": "Finger",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8794",
+        "amharic": "Meqorttem",
+        "geez": "",
+        "english": "To crush (with teeth)",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8793",
+        "amharic": "Merdat",
+        "geez": "",
+        "english": "To Help",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8792",
+        "amharic": "Rasachn",
+        "geez": "",
+        "english": "Ourselve",
+        "category": "Pronoun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8791",
+        "amharic": "Masalef",
+        "geez": "",
+        "english": "To Spend",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8790",
+        "amharic": "Neber",
+        "geez": "",
+        "english": "Was",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc878f",
+        "amharic": "Meshal",
+        "geez": "",
+        "english": "To Recover/Be Better",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc878e",
+        "amharic": "Marfet",
+        "geez": "",
+        "english": "To Be Late",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc878d",
+        "amharic": "Yetum",
+        "geez": "",
+        "english": "Nowhere",
+        "category": "Adverb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc878c",
+        "amharic": "Metabek",
+        "geez": "",
+        "english": "To Wait For",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc878b",
+        "amharic": "Mgb bet",
+        "geez": "",
+        "english": "Restaurant",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc878a",
+        "amharic": "Ngd",
+        "geez": "",
+        "english": "Trade/Commercial business",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8789",
+        "amharic": "Bedenb",
+        "geez": "",
+        "english": "Very well",
+        "category": "Phrase"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8788",
+        "amharic": "Meshto",
+        "geez": "",
+        "english": "Dark",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8787",
+        "amharic": "Ye___",
+        "geez": "",
+        "english": "___ing",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8786",
+        "amharic": "Yememar",
+        "geez": "",
+        "english": "Learning",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8785",
+        "amharic": "Zede",
+        "geez": "",
+        "english": "Way/Method",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8784",
+        "amharic": "Befitnat",
+        "geez": "",
+        "english": "Quickly",
+        "category": "Adverb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8783",
+        "amharic": "Leba",
+        "geez": "",
+        "english": "Theif",
+        "category": "Noun"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8782",
+        "amharic": "Mekan",
+        "geez": "",
+        "english": "To heal",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8781",
+        "amharic": "Makakas",
+        "geez": "",
+        "english": "To make up",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc8780",
+        "amharic": "Amoh",
+        "geez": "",
+        "english": "Got sick",
+        "category": "Verb"
+    },
+    {
+        "_id": "61fd4467b344aafc8ebc877f",
+        "amharic": "Balefew",
+        "geez": "",
+        "english": "Last time",
+        "category": "Preposition"
+    },
+    {
         "_id": "61d4ec391fc3a3707075df6f",
         "amharic": "Endisirah",
         "geez": "",
@@ -739,7 +1880,7 @@
         "amharic": "Not bad (to have no opinon)",
         "geez": "Minim Alilm",
         "english": "Not good",
-        "category": ""
+        "category": "Phrase"
     },
     {
         "_id": "61c8d3091103e3730e945f02",
@@ -1430,7 +2571,7 @@
     {
         "_id": "619be8196d1ffc01b841d955",
         "amharic": "Serach",
-        "geez": "Verb",
+        "geez": "",
         "english": "She worked",
         "category": "Verb"
     },
@@ -1451,7 +2592,7 @@
     {
         "_id": "619be8196d1ffc01b841d952",
         "amharic": "Teccheneku",
-        "geez": "Verb",
+        "geez": "",
         "english": "You worried (respectful)",
         "category": "Verb"
     },
