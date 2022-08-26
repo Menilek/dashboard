@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
 import '../App.css';
-import dashboard from '../assets/img/dashboard.png';
-import cafesite from '../assets/img/cafe-site.png';
+import dictionary from '../assets/img/dictionary.gif';
+import flashcards from '../assets/img/amharic-flashcards.gif';
 import p4p from '../assets/img/p4p.png';
 
 function Splash() {
@@ -18,22 +17,12 @@ function Splash() {
         <Row className="site-collection">
           <Col sm={12} md={12} lg={4}>
             <div className="cell">
-              <a href="http://www.gillianscafe.co.uk/">
-                <i className="fas fa-utensils"></i>
-              </a>
-              <a href="http://www.gillianscafe.co.uk/">
-                <img src={cafesite} className="site-thumb" alt="site thumbnail" />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={12} lg={4}>
-            <div className="cell">
-              <a href="https://github.com/Menilek/ip-dashboard">
+              <a href="https://github.com/Menilek/amharic-flashcards">
                 <i className="fab fa-github"></i>
               </a>
-              <Link to="/ane/dashboard">
-                <img src={dashboard} className="site-thumb" alt="site thumbnail" />
-              </Link>
+              <a href="https://basic-amharic.vercel.app/">
+                <img src={flashcards} className="site-thumb" alt="site thumbnail" />
+              </a>
             </div>
           </Col>
           <Col sm={12} md={12} lg={4}>
@@ -43,6 +32,16 @@ function Splash() {
               </a>
               <a href="https://top-fighters.herokuapp.com/">
                 <img src={p4p} className="site-thumb" alt="site thumbnail" />
+              </a>
+            </div>
+          </Col>
+          <Col sm={12} md={12} lg={4}>
+            <div className="cell">
+              <a href="https://github.com/Menilek/amharic-dictionary">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="https://amharic-dictionary.vercel.app/">
+                <img src={dictionary} className="site-thumb" alt="site thumbnail" />
               </a>
             </div>
           </Col>
