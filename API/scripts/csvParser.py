@@ -17,7 +17,7 @@ db = client['words']  # select db
 words = db['words']  # select collection
 
 word_list = []
-file = './c.csv'
+file = './a.csv'
 # endpoint = 'http://0.0.0.0:3001/api/words'
 
 
